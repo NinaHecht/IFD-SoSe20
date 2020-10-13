@@ -4,8 +4,66 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>IFD - Nina Hecht</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: white;
+            }
+            ::selection {
+                background: white;
+                color: rgba(255,95,109,1);
+            }
+            ::-moz-selection {
+                background: white;
+                color: rgba(255,95,109,1);
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+                height: 100%;
+            }
+            body {
+                height: 100%;
+            }
+            .content {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+            }
+            h1 {
+                font-size: 4rem;
+            }
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h1, h2 {
+                text-align: center;
+            }
+            a {
+                font-size: 2rem;
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
     </head>
     <body>
-        <h1>IFD-WS 20/21</h1>
+        <div class="content">
+            <h1>Nina Hecht</h1>
+            <h2>Interface Design Wintersemester 2020-2021</h2>
+            <div class="content__links">
+                <a href="#">--> Aufgabe #00</a>
+            </div>
+        </div>
     </body>
 </html>
