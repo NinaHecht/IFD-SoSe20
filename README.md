@@ -5,4 +5,5 @@ Nina Hecht - OMB 5 - 260619
 <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe0/">SWOT-Analyse</a>
 
 ## Aufgabe 1
-<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe0/">Wallet Project</a>
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe1/wallet-project-documentation.pdf">Wallet Project Dokumentation</a><br>
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe1/wallet-project-prototype.mp4">Wallet Project Prototyp Video</a>
