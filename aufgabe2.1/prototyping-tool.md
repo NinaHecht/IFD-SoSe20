@@ -1,4 +1,4 @@
-# Mockplus
+# Mockplus Classic
 
 ## Allgemeine Beschreibung
 
@@ -25,6 +25,9 @@ Mit Mockplus lassen sich Prototypen mit Interaktivität eines mittleren Reifegra
 
 Auch im Bereich der Visualisierung können mit Mockplus erstellte Prototypen einen mittleren Reifegrad erreichen. Der Großteil der Elemente kann individuell gestaltet werden, allerdings fehlen Eigenschaften wie beispielsweise die Innenabstände (Padding), wodurch die Visualisierung eingeschränkt ist.
 
+![Designoptionen Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2.1/mockplus-designoptionen.JPG)
+Auf diesem Screenshot kann man die Designoptionen, welche Mockplus für einen Button bietet, erkennen. Es ist erkenntlich, dass zwar die Höhe und Breite anpassbar sind, jedoch ist es nicht möglich genaue Innenabstände anzugeben.
+
 **Inhaltsentwicklung:**
 
 Die Inhaltsentwicklung mithilfe Mockplus hat einen sehr hohen Reifegrad. Per Doppelklick auf eine der vorgefertigten Komponenten kann der Inhalt sofort von dem Beispieltext angepasst werden.
@@ -47,3 +50,5 @@ Leider habe ich außer den selbsterstellten Screencast keine Beispiele, welche m
 
 Das Tool hat einige Grenzen, welche ich bei der Bewertung der Fidelity bereits aufgeführt habe, wie die Einschränkungen bei der Erstellung von Hover-Events und dem Mangel einer Möglichkeit Innenabstände für Elemente anzugeben.
 Zudem entstehen weitere Einschränkungen für Nutzer, welche mit der kostenlosen Funktion arbeiten. Hier fehlen nämlich einige Export Optionen sowie eines der beworbenen Kernfeatures: Die Möglichkeit einer Kollaboration an einem Mockplus Projekt.
+
+Zusammenfassend kann man also sagen, dass das Tool sich vor allem dazu eigenet, eine Idee möglichst schnell festzuhalten. Wer jedoch einen High-Fidelity Prototypen benötigt, sollte auf ein anderes Tool zurückgreifen. 

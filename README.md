@@ -10,4 +10,4 @@ Nina Hecht - OMB 5 - 260619
 
 ## Aufgabe 2
 **Aufgabe 2.1**
-<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2.1/prototyping-tool.md">Prototyping Tool Vorstellung</a>
+<a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2.1/prototyping-tool.md">Prototyping Tool Vorstellung</a>
