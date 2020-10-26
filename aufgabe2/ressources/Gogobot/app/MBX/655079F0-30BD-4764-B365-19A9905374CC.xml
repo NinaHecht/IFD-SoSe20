@@ -1,0 +1,150 @@
+<mockup ID="655079F0-30BD-4764-B365-19A9905374CC" clipArea="(0,0,0,0)" defaultH="667" defaultW="375" from="FmLocal" measureH="667" measureW="375" minAllowVersion="5.3" mobileScreenScale="1.77777779102325" platform="MtMobile" screenOrientation="MoPortrait" version="5.3">
+  <controls controlCount="3">
+    <control controlID="9E601A2B-0F70-4CCA-8C0D-995D076D0623" controlTypeID="Image" h="101" measuredH="150" measuredW="150" w="101" x="138" y="48" zOrder="0">
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294967295</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <showText>False</showText>
+      <fitMode>2</fitMode>
+      <FlipVertical>False</FlipVertical>
+      <FlipHorizontal>False</FlipHorizontal>
+      <URL/>
+      <filterSketchValue>5</filterSketchValue>
+      <filterPencilValue>2</filterPencilValue>
+      <filterType>MfNone</filterType>
+      <radiusIsPercent>False</radiusIsPercent>
+      <radius>0</radius>
+      <clipShapeType>SbRectangle</clipShapeType>
+      <rotationAngle>TdZero</rotationAngle>
+      <interactiveData>
+        <entry title="">
+          <area ID="{A2A93F2B-470B-4B1E-BD2D-9D6C5E4D8870}" alt="" coords="(0,0,101,101)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushLeft" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{5CE9D4C4-091E-40E8-BCEC-5FAE297CBDCB}" alt="" coords="(0,0,101,101)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Image</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="EF1BE168-8E89-4D11-BB90-52126C71C352" controlTypeID="TextArea" h="117" measuredH="126" measuredW="0" w="340" x="18" y="190" zOrder="1">
+      <text>Start+collecting+Gogobot+badges!+Are+you+informed%2C+a+Photo+Friend%2C+or+Fan+Favorite%3F+Sign+up+to+find+out!</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaTop</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>16</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>16777215</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <borderColor>4282664004</borderColor>
+      <alias/>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{22441F0F-1F9E-4DDF-BB55-69B8EC684F6C}" alt="" coords="(0,0,340,117)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushLeft" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{734A7B24-D7C8-4BFB-989D-5C39A37C5373}" alt="" coords="(0,0,340,117)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Text+Area</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="C98FDCA2-CB06-46D0-A593-B17F33017D65" controlTypeID="Button" h="48" measuredH="36" measuredW="78" w="355" x="10" y="278" zOrder="2">
+      <text>Sign+up</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaMiddle</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>16</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294901886</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <alias/>
+      <borderColor>4284900966</borderColor>
+      <isAutoTextColor>True</isAutoTextColor>
+      <thickness>1</thickness>
+      <buttonStatus>BsNormal</buttonStatus>
+      <radiusIsPercent>False</radiusIsPercent>
+      <radius>4</radius>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{119B7EDE-6DA5-4587-9FE2-7F015D72473C}" alt="" coords="(0,0,355,48)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmNone" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="9059FBD9-4C06-4F6F-93BE-13DFF1C61636" title="sign+up">
+          <area ID="{3C1C2C4E-26D6-4C77-B47F-3B4FC0123FF4}" alt="" coords="(0,0,355,48)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Button</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

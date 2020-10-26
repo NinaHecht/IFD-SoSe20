@@ -1,0 +1,533 @@
+<mockup ID="BED16268-F23B-41FA-B399-7031D287CD46" clipArea="(0,0,0,0)" defaultH="667" defaultW="375" from="FmLocal" measureH="667" measureW="375" minAllowVersion="5.3" mobileScreenScale="1.77777779102325" platform="MtMobile" screenOrientation="MoPortrait" version="5.3">
+  <controls controlCount="12">
+    <control controlID="79FDC194-FB87-4D0D-A68A-19D53AEACF55" controlTypeID="StatusBar(IOS)" h="20" measuredH="20" measuredW="342" w="375" x="0" y="0" zOrder="0">
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294967295</color>
+      <canMove>True</canMove>
+      <borderVisible>True</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <IsAutoTextColor>True</IsAutoTextColor>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <interactiveData>
+        <entry title="">
+          <area ID="{BB96EFD6-3711-4E3E-95F9-2A7470AE46A6}" alt="" coords="(0,0,375,20)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmFade" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{7B3D9F48-A65F-4FCF-ACEB-985F561ADBD1}" alt="" coords="(0,0,375,20)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>iOS+Status+Bar</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="4D7B6A12-D668-4D9B-8B5E-FC1C6229A6F7" controlTypeID="Shape" h="44" measuredH="100" measuredW="120" w="375" x="0" y="20" zOrder="1">
+      <font family="Arial"/>
+      <useDefaultTextSize>True</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaMiddle</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>12</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294967295</color>
+      <canMove>True</canMove>
+      <borderVisible>True</borderVisible>
+      <borderColor>4291611852</borderColor>
+      <alias/>
+      <borderMode>[bmBottom]</borderMode>
+      <thickness>1</thickness>
+      <radiusIsPercent>False</radiusIsPercent>
+      <radius>0</radius>
+      <dashMode>SdSolid</dashMode>
+      <triangleType>TdZero</triangleType>
+      <shapeBorderType>SbRectangle</shapeBorderType>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{2C08B4A7-3D12-46F8-A43A-9D96EBD3077B}" alt="" coords="(0,0,375,44)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmFade" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{26A853F1-1B8E-4F21-B19E-2D37C4B5B25A}" alt="" coords="(0,0,375,44)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Shape</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="0688A748-094B-43B5-9104-48632D11179B" controlTypeID="Icon" h="18" measuredH="32" measuredW="32" w="18" x="10" y="33" zOrder="2">
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294901886</color>
+      <canMove>True</canMove>
+      <borderVisible>True</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <FlipVertical>False</FlipVertical>
+      <FlipHorizontal>False</FlipHorizontal>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <rotationAngle>TdZero</rotationAngle>
+      <interactiveData>
+        <entry title="">
+          <area ID="{E77AD77A-5548-440B-8A5B-0C965A389478}" alt="" coords="(0,0,18,18)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="1930785E-6B1F-484C-B044-0FF538926495" title="more">
+          <area ID="{871BA88B-5137-4D64-8DA3-BC9C8AAABACE}" alt="" coords="(0,0,18,18)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Icon</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="9753EBE0-8256-4D1D-8897-B65B7DBF8500" controlTypeID="Label" h="19" measuredH="0" measuredW="0" w="89" x="144" y="33" zOrder="3">
+      <text>Find+Friends</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaTop</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>16</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaLeft</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>True</isAutoSize>
+      <color>0</color>
+      <canMove>True</canMove>
+      <borderVisible>True</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{828A12C8-4350-40F5-967E-ADE2C3C8FB4B}" alt="" coords="(0,0,89,19)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmFade" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{6A40DAF5-D15E-4173-B464-52D90C161DE8}" alt="" coords="(0,0,89,19)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Label</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="221E5E9E-2D1F-4872-ACF6-AD715DCB708B" controlTypeID="ButtonBar" h="48" measuredH="36" measuredW="324" w="375" x="0" y="64" zOrder="4">
+      <text>Text%2CEmail%2CGogobot</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>True</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaTop</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>12</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaLeft</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4293651435</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <selectedTextColor>4278190080</selectedTextColor>
+      <hoveredColor>1078052822</hoveredColor>
+      <showHover>False</showHover>
+      <thickness>1</thickness>
+      <textPadding>0</textPadding>
+      <selectedColor>4294967295</selectedColor>
+      <selectedIndex>0</selectedIndex>
+      <interactiveData>
+        <entry title="Text">
+          <area ID="{A7AAD89A-E1C7-455C-9F89-30B3E371D95C}" alt="" coords="(0,0,125,48)" shape="0"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour execMode="emParallel" isChecked="True" isLoop="False" isWait="False" title="">
+                <target execMode="emSequence" isAutoRecovery="False" isChecked="True" isLoop="False" targetID="3C11328D-B71E-480B-9C9E-E5C504290E41">
+                  <command descrition="" isChecked="True" name="Switch Stack Panel">
+                    <param description="" name="AniInterpolation" value="0" varType="3"/>
+                    <param description="" name="AniDuration" value="200" varType="3"/>
+                    <param description="" name="AniAutoReverse" value="False" varType="11"/>
+                    <param description="" name="AniLoop" value="False" varType="11"/>
+                    <param description="" name="AniInterpolationTypeOut" value="False" varType="11"/>
+                    <param description="" name="Delay" value="0" varType="3"/>
+                    <param description="" name="SelecedIndex" value="0" varType="3"/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+        <entry title="Email">
+          <area ID="{63AB3A54-601F-4DC7-947D-7773BAF338E8}" alt="" coords="(125,0,250,48)" shape="0"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour execMode="emParallel" isChecked="True" isLoop="False" isWait="False" title="">
+                <target execMode="emSequence" isAutoRecovery="False" isChecked="True" isLoop="False" targetID="3C11328D-B71E-480B-9C9E-E5C504290E41">
+                  <command descrition="" isChecked="True" name="Switch Stack Panel">
+                    <param description="" name="AniInterpolation" value="0" varType="3"/>
+                    <param description="" name="AniDuration" value="200" varType="3"/>
+                    <param description="" name="AniAutoReverse" value="False" varType="11"/>
+                    <param description="" name="AniLoop" value="False" varType="11"/>
+                    <param description="" name="AniInterpolationTypeOut" value="False" varType="11"/>
+                    <param description="" name="Delay" value="0" varType="3"/>
+                    <param description="" name="SelecedIndex" value="1" varType="3"/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+        <entry title="Gogobot">
+          <area ID="{EBCD1642-00EB-420F-8E28-59ADE0DCA459}" alt="" coords="(250,0,375,48)" shape="0"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour execMode="emParallel" isChecked="True" isLoop="False" isWait="False" title="">
+                <target execMode="emSequence" isAutoRecovery="False" isChecked="True" isLoop="False" targetID="3C11328D-B71E-480B-9C9E-E5C504290E41">
+                  <command descrition="" isChecked="True" name="Switch Stack Panel">
+                    <param description="" name="AniInterpolation" value="0" varType="3"/>
+                    <param description="" name="AniDuration" value="200" varType="3"/>
+                    <param description="" name="AniAutoReverse" value="False" varType="11"/>
+                    <param description="" name="AniLoop" value="False" varType="11"/>
+                    <param description="" name="AniInterpolationTypeOut" value="False" varType="11"/>
+                    <param description="" name="Delay" value="0" varType="3"/>
+                    <param description="" name="SelecedIndex" value="2" varType="3"/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="Text">
+          <area ID="{7A7DE444-C450-48FF-B319-1C607E159BEF}" alt="" coords="(0,0,125,48)" shape="0"/>
+        </link>
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="Email">
+          <area ID="{B218D3C9-2B6E-4AC1-90A4-A79D61FA7C6E}" alt="" coords="(125,0,250,48)" shape="0"/>
+        </link>
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="Gogobot">
+          <area ID="{8DF6C870-BDB4-4B1A-9388-24D8695206B1}" alt="" coords="(250,0,375,48)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Button+Bar</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="3C11328D-B71E-480B-9C9E-E5C504290E41" controlTypeID="ContentPanel" h="555" measuredH="0" measuredW="0" w="375" x="0" y="112" zOrder="5">
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294967295</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <showScrollBars>True</showScrollBars>
+      <canVertScroll>True</canVertScroll>
+      <canHoriScroll>False</canHoriScroll>
+      <contentLayout>clAbsolute</contentLayout>
+      <playInterval>6000</playInterval>
+      <aniType>spaNone</aniType>
+      <selectedIndex>0</selectedIndex>
+      <groupChildrenDescriptors>
+        <control controlID="6D885B98-CF74-4A86-950E-18F2A2F786E6" controlTypeID="ScrollArea" h="553" measuredH="0" measuredW="0" w="373" x="1" y="1" zOrder="0">
+          <status>MsEnabled</status>
+          <rotation>0</rotation>
+          <opacity>1</opacity>
+          <isCommentCom>False</isCommentCom>
+          <isAutoSize>False</isAutoSize>
+          <color>4294967295</color>
+          <canMove>False</canMove>
+          <borderVisible>False</borderVisible>
+          <borderColor>4284900966</borderColor>
+          <alias>Text</alias>
+          <groupChildrenDescriptors>
+            <control controlID="A726D4FB-FDC7-42EF-926F-77D12E1290C3" controlTypeID="ScrollViewPort" h="300" measuredH="0" measuredW="0" w="300" x="0" y="0" zOrder="0">
+              <status>MsEnabled</status>
+              <rotation>0</rotation>
+              <opacity>1</opacity>
+              <isCommentCom>False</isCommentCom>
+              <isAutoSize>False</isAutoSize>
+              <color>0</color>
+              <canMove>False</canMove>
+              <borderVisible>False</borderVisible>
+              <borderColor>4284900966</borderColor>
+              <alias>viewPort</alias>
+              <interactiveData>
+                <entry title="">
+                  <area ID="{235150B6-D293-422E-B4EE-EABA17006598}" alt="" coords="(0,0,300,300)" shape="0"/>
+                  <events title=""/>
+                </entry>
+              </interactiveData>
+              <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+                <link isApplyIncludePage="True" linkType="ltIncludePage" targetPageID="C8B4F14A-6786-4727-A59D-694960F1EACF" title="%E9%93%BE%E6%8E%A5">
+                  <area ID="{D86BF271-5812-4FB7-AFF5-C893BA7058BE}" alt="" coords="(0,0,300,300)" shape="0"/>
+                </link>
+              </links>
+              <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+              <horizontalScrollbarShow>False</horizontalScrollbarShow>
+              <verticalScrollbarProgress>0</verticalScrollbarProgress>
+              <verticalScrollbarShow>False</verticalScrollbarShow>
+              <states/>
+              <isShow>True</isShow>
+              <caption>ScrollViewPort</caption>
+              <locked>False</locked>
+              <sizeLocked>False</sizeLocked>
+            </control>
+          </groupChildrenDescriptors>
+          <interactiveData>
+            <entry title="">
+              <area ID="{CBAE3E26-9EEE-40AB-8E47-64E89E2FB886}" alt="" coords="(0,0,373,553)" shape="0"/>
+              <events title=""/>
+            </entry>
+          </interactiveData>
+          <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+            <link isApplyIncludePage="False" linkType="ltIncludePage" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+              <area ID="{70CFE1A8-EFC9-42E3-A40C-41006A0DDB41}" alt="" coords="(0,0,373,553)" shape="0"/>
+            </link>
+          </links>
+          <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+          <horizontalScrollbarShow>False</horizontalScrollbarShow>
+          <verticalScrollbarProgress>0</verticalScrollbarProgress>
+          <verticalScrollbarShow>False</verticalScrollbarShow>
+          <states/>
+          <isShow>True</isShow>
+          <caption>Text</caption>
+          <locked>False</locked>
+          <sizeLocked>False</sizeLocked>
+        </control>
+        <control controlID="F2759DCD-AC22-4320-9442-E4CA088C467E" controlTypeID="ScrollArea" h="553" measuredH="0" measuredW="0" w="373" x="1" y="1" zOrder="1">
+          <status>MsEnabled</status>
+          <rotation>0</rotation>
+          <opacity>1</opacity>
+          <isCommentCom>False</isCommentCom>
+          <isAutoSize>False</isAutoSize>
+          <color>4294967295</color>
+          <canMove>False</canMove>
+          <borderVisible>False</borderVisible>
+          <borderColor>4284900966</borderColor>
+          <alias>email</alias>
+          <groupChildrenDescriptors>
+            <control controlID="A27AB0AF-59F7-487C-AFDB-1365FF0455C1" controlTypeID="ScrollViewPort" h="300" measuredH="0" measuredW="0" w="300" x="0" y="0" zOrder="0">
+              <status>MsEnabled</status>
+              <rotation>0</rotation>
+              <opacity>1</opacity>
+              <isCommentCom>False</isCommentCom>
+              <isAutoSize>False</isAutoSize>
+              <color>0</color>
+              <canMove>False</canMove>
+              <borderVisible>False</borderVisible>
+              <borderColor>4284900966</borderColor>
+              <alias>viewPort</alias>
+              <interactiveData>
+                <entry title="">
+                  <area ID="{2CBA3FBD-5A88-4ABC-BD33-6E6AEE10DEE0}" alt="" coords="(0,0,300,300)" shape="0"/>
+                  <events title=""/>
+                </entry>
+              </interactiveData>
+              <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+                <link isApplyIncludePage="True" linkType="ltIncludePage" targetPageID="611D612D-27D7-4C28-A096-040AB3B7E0B5" title="%E9%93%BE%E6%8E%A5">
+                  <area ID="{6782F09A-42E3-421D-817D-63DE865CF414}" alt="" coords="(0,0,300,300)" shape="0"/>
+                </link>
+              </links>
+              <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+              <horizontalScrollbarShow>False</horizontalScrollbarShow>
+              <verticalScrollbarProgress>0</verticalScrollbarProgress>
+              <verticalScrollbarShow>False</verticalScrollbarShow>
+              <states/>
+              <isShow>True</isShow>
+              <caption>ScrollViewPort</caption>
+              <locked>False</locked>
+              <sizeLocked>False</sizeLocked>
+            </control>
+          </groupChildrenDescriptors>
+          <interactiveData>
+            <entry title="">
+              <area ID="{ADC819E8-D8D7-44A2-9C8F-8B46F3D85C40}" alt="" coords="(0,0,373,553)" shape="0"/>
+              <events title=""/>
+            </entry>
+          </interactiveData>
+          <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+            <link isApplyIncludePage="False" linkType="ltIncludePage" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+              <area ID="{4AD88340-C06B-405F-9107-5E022B6338EA}" alt="" coords="(0,0,373,553)" shape="0"/>
+            </link>
+          </links>
+          <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+          <horizontalScrollbarShow>False</horizontalScrollbarShow>
+          <verticalScrollbarProgress>0</verticalScrollbarProgress>
+          <verticalScrollbarShow>False</verticalScrollbarShow>
+          <states/>
+          <isShow>True</isShow>
+          <caption>email</caption>
+          <locked>False</locked>
+          <sizeLocked>False</sizeLocked>
+        </control>
+        <control controlID="7FC186AB-33CE-4950-A4A2-164591DEC42D" controlTypeID="ScrollArea" h="553" measuredH="0" measuredW="0" w="373" x="1" y="1" zOrder="2">
+          <status>MsEnabled</status>
+          <rotation>0</rotation>
+          <opacity>1</opacity>
+          <isCommentCom>False</isCommentCom>
+          <isAutoSize>False</isAutoSize>
+          <color>4294967295</color>
+          <canMove>False</canMove>
+          <borderVisible>False</borderVisible>
+          <borderColor>4284900966</borderColor>
+          <alias>gogobot</alias>
+          <groupChildrenDescriptors>
+            <control controlID="E445BC3B-DBD7-4A7D-AA90-33A51FC5C4A8" controlTypeID="ScrollViewPort" h="300" measuredH="0" measuredW="0" w="300" x="0" y="0" zOrder="0">
+              <status>MsEnabled</status>
+              <rotation>0</rotation>
+              <opacity>1</opacity>
+              <isCommentCom>False</isCommentCom>
+              <isAutoSize>False</isAutoSize>
+              <color>0</color>
+              <canMove>False</canMove>
+              <borderVisible>False</borderVisible>
+              <borderColor>4284900966</borderColor>
+              <alias>viewPort</alias>
+              <interactiveData>
+                <entry title="">
+                  <area ID="{4CDF0446-E24A-4A12-8B80-6FC2BE0F7D57}" alt="" coords="(0,0,300,300)" shape="0"/>
+                  <events title=""/>
+                </entry>
+              </interactiveData>
+              <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+                <link isApplyIncludePage="True" linkType="ltIncludePage" targetPageID="097C31D2-82D1-4115-82F0-A06A24275526" title="%E9%93%BE%E6%8E%A5">
+                  <area ID="{F3FAAACD-9B51-4819-872D-BD233EF7D2DF}" alt="" coords="(0,0,300,300)" shape="0"/>
+                </link>
+              </links>
+              <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+              <horizontalScrollbarShow>False</horizontalScrollbarShow>
+              <verticalScrollbarProgress>0</verticalScrollbarProgress>
+              <verticalScrollbarShow>False</verticalScrollbarShow>
+              <states/>
+              <isShow>True</isShow>
+              <caption>ScrollViewPort</caption>
+              <locked>False</locked>
+              <sizeLocked>False</sizeLocked>
+            </control>
+          </groupChildrenDescriptors>
+          <interactiveData>
+            <entry title="">
+              <area ID="{665CF176-211A-4EBF-882F-AFA0B7E12492}" alt="" coords="(0,0,373,553)" shape="0"/>
+              <events title=""/>
+            </entry>
+          </interactiveData>
+          <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+            <link isApplyIncludePage="False" linkType="ltIncludePage" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+              <area ID="{8BC3A605-2310-47CC-9828-B8616779F54E}" alt="" coords="(0,0,373,553)" shape="0"/>
+            </link>
+          </links>
+          <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+          <horizontalScrollbarShow>False</horizontalScrollbarShow>
+          <verticalScrollbarProgress>0</verticalScrollbarProgress>
+          <verticalScrollbarShow>False</verticalScrollbarShow>
+          <states/>
+          <isShow>True</isShow>
+          <caption>gogobot</caption>
+          <locked>False</locked>
+          <sizeLocked>False</sizeLocked>
+        </control>
+      </groupChildrenDescriptors>
+      <interactiveData>
+        <entry title="">
+          <area ID="{A699E26E-EB8F-4DFF-9ECD-005B14394307}" alt="" coords="(0,0,375,555)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushRight" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltIncludePage" targetPageID="C8B4F14A-6786-4727-A59D-694960F1EACF" title="gogobot">
+          <area ID="{5668C929-9E93-41B6-89B2-6340DAD8FF03}" alt="" coords="(0,0,375,555)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Stack+Panel</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

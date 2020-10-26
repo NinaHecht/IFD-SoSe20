@@ -1,0 +1,147 @@
+<mockup ID="05478F52-6FC6-4D94-9FC4-516B2E3763EB" defaultH="667" defaultW="375" from="FmLocal" measureH="667" measureW="375" minAllowVersion="5.3" mobileScreenScale="1.77777779102325" platform="MtMobile" screenOrientation="MoPortrait" version="5.3">
+  <controls controlCount="3">
+    <control controlID="227B4D5D-6B3F-4478-906E-1B782D237BAD" controlTypeID="Icon" h="86" measuredH="32" measuredW="32" w="86" x="145" y="64" zOrder="0">
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294901886</color>
+      <canMove>True</canMove>
+      <borderVisible>True</borderVisible>
+      <borderColor>4284900966</borderColor>
+      <alias/>
+      <FlipVertical>False</FlipVertical>
+      <FlipHorizontal>False</FlipHorizontal>
+      <URL>4C4B8FA8108FC56D0D2BD6A0A4E9D09F.svg</URL>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61508</iconCode>
+      </icon>
+      <rotationAngle>TdZero</rotationAngle>
+      <interactiveData>
+        <entry title="">
+          <area ID="{AB8B9381-1FC9-468F-9B01-9E79D047E613}" alt="" coords="(0,0,86,86)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushLeft" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{F2800629-4DC6-4AAF-8D18-29F8D12C34C5}" alt="" coords="(0,0,86,86)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Icon</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="ACB613F3-71EE-4148-8AF3-92BC3AD4B275" controlTypeID="TextArea" h="117" measuredH="126" measuredW="0" w="335" x="20" y="187" zOrder="1">
+      <text>Write+at+least+1+review+to+unlock+the+leader+board+feature</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaTop</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>16</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>16777215</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <borderColor>4282664004</borderColor>
+      <alias/>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{A5612E82-F4AE-4112-8C02-633BE5751718}" alt="" coords="(0,0,335,117)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushLeft" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{615617C6-D9BD-49C4-AB66-FF126C7C48B7}" alt="" coords="(0,0,335,117)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Text+Area</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+    <control controlID="EF0504EF-D53F-4527-86E9-F3B175F1B9D8" controlTypeID="Button" h="48" measuredH="36" measuredW="78" w="355" x="10" y="278" zOrder="2">
+      <text>Write+a+Review</text>
+      <font family="Arial"/>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <textWordWrap>True</textWordWrap>
+      <textVAlign>VaMiddle</textVAlign>
+      <textStyles>[]</textStyles>
+      <textSize>16</textSize>
+      <textFontFamily>Arial</textFontFamily>
+      <textColor>4278190080</textColor>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacingMultiple>1</lineSpacingMultiple>
+      <status>MsEnabled</status>
+      <rotation>0</rotation>
+      <opacity>1</opacity>
+      <isCommentCom>False</isCommentCom>
+      <isAutoSize>False</isAutoSize>
+      <color>4294901886</color>
+      <canMove>True</canMove>
+      <borderVisible>False</borderVisible>
+      <alias/>
+      <borderColor>4284900966</borderColor>
+      <isAutoTextColor>True</isAutoTextColor>
+      <thickness>1</thickness>
+      <buttonStatus>BsNormal</buttonStatus>
+      <radiusIsPercent>False</radiusIsPercent>
+      <radius>4</radius>
+      <textPadding>0</textPadding>
+      <selectedColor>4282501083</selectedColor>
+      <selectedIndex>-1</selectedIndex>
+      <interactiveData>
+        <entry title="">
+          <area ID="{119B7EDE-6DA5-4587-9FE2-7F015D72473C}" alt="" coords="(0,0,355,48)" shape="0"/>
+          <events title=""/>
+        </entry>
+      </interactiveData>
+      <links animate="AmPushLeft" animateAutoDelay="0" animateDuration="500" eventType="AtClick">
+        <link isApplyIncludePage="False" linkType="ltPageLink" targetPageID="" title="%E9%93%BE%E6%8E%A5">
+          <area ID="{3C1C2C4E-26D6-4C77-B47F-3B4FC0123FF4}" alt="" coords="(0,0,355,48)" shape="0"/>
+        </link>
+      </links>
+      <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+      <horizontalScrollbarShow>False</horizontalScrollbarShow>
+      <verticalScrollbarProgress>0</verticalScrollbarProgress>
+      <verticalScrollbarShow>False</verticalScrollbarShow>
+      <states/>
+      <isShow>True</isShow>
+      <caption>Button</caption>
+      <locked>False</locked>
+      <sizeLocked>False</sizeLocked>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

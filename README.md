@@ -10,4 +10,7 @@ Nina Hecht - OMB 5 - 260619
 
 ## Aufgabe 2
 **Aufgabe 2.1**
-<a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2.1/prototyping-tool.md">Prototyping Tool Vorstellung</a>
+<a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2/prototyping-tool.md">Prototyping Tool Vorstellung</a>
+
+**Aufgabe 2.2**
+<a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2/intranet-low-fid.md">Intranet Redesign Low-Fid</a>
