@@ -20,7 +20,7 @@ Das Intranet bekommt einen kleinen Footer, in dem wie es auf Websites üblich is
 
 ## Kursseite Studierende
 
-![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/intranet-kursseite-studierende.jpg)
+![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/Intranet-kursseite-studierende.jpg)
 
 (1) Tab-Leiste
 Auch die Kursseite wird durch eine Tab-Leiste organisiert, um einen möglichst einheitlichen Workflow innerhalb der verschiedenen Bereiche des Intranets zu erreichen. Zudem werden die Labels für die Punkte "Dateien" und "Nachrichten" mit einem Indikator ergänzt, welcher dem Nutzer zeigt, ob dort Neues zu finden ist, also ob es Sinn macht, reinzuklicken.
