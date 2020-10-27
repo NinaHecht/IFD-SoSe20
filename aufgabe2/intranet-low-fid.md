@@ -18,6 +18,9 @@ Das Dashboard an sich habe ich mithilfe einer Tab-Leiste organisiert. Anstatt al
 (4) Footer   
 Das Intranet bekommt einen kleinen Footer, in dem wie es auf Websites üblich ist, Impressum und Datenschutz zu finden sind.
 
+(5) Stundenplan  
+Unter der Veranstaltungsübersicht wird ein wochenspezifischer Stundenplan, welcher die Termine aller gebuchten Veranstaltungen zusammenträgt. So kann Nutzer sofort erkennen, wann in der aktuellen Woche welche Termine hat.
+
 ## Kursseite Studierende
 
 ![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/Intranet-kursseite-studierende.jpg)
