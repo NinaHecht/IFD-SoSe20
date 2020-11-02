@@ -14,3 +14,6 @@ Nina Hecht - OMB 5 - 260619
 
 **Aufgabe 2.2**
 <br><a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2/intranet-low-fid.md">Intranet Redesign Low-Fid</a>
+
+## Aufgabe 3
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/">Intranet High-Fid</a>
