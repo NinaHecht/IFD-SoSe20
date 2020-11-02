@@ -57,13 +57,13 @@ li.platforms, li.faculty {
     float: left;
 }
 #menu-sub-nav > li {
-    padding: 10px 20px;
+    padding: 7px 20px;
 }
 #menu-sub-nav > li.group-start {
-    padding-top: 20px;
+    padding-top: 12px;
 }
 #menu-sub-nav > li.group-end {
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     border-bottom: 1.5px solid white;
 }
 #menu-sub-nav > li.group-end.faculty {
