@@ -41,12 +41,16 @@ Hieraus ergeben sich beispielsweise folgende
 
 Mithilfe der zuvor definierten Fragen und Befehle wurden mögliche Dialogkonstrukte gebildet und als Dialog Flow dargestellt.
 
-![Dialog Flow](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.png)
-[Dialog Flow in voller Größe](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.html)
-
 Unterteilt wurde der Dialog Flow in vier Arten von Dialogfragmenten:
 
 1. Der einleitende Befehl: "Hallo Intranet" (blau)
 2. Die User Inputs (grau)
 3. Die System Outputs (grün)
 4. Der terminierende Befehl : "Danke" (gelb)
+
+Die in Dialog in geschweiften Klammern verwendeten Begriffe sind variable In- / Outputs. 
+
+Bei dem Kernelement - die kurze Zusammenfassung - ist eine Art Kreislauf vorgesehen, bei welchen es möglich ist, jedes der drei Elemente (Veranstaltungen, Nachrichten und Dateien) genauer zu erfragen, ohne sich die Zusammenfassung erneut anhören zu müssen (gekennzeichnet ist dieser durch die gestrichelten Pfeile).
+
+![Dialog Flow](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.svg)
+[Dialog Flow in voller Größe](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.html)
