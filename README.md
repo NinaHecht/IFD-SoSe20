@@ -10,10 +10,13 @@ Nina Hecht - OMB 5 - 260619
 
 ## Aufgabe 2
 **Aufgabe 2.1**
-<br><a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2/prototyping-tool.md">Prototyping Tool Vorstellung</a>
+<br><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/prototyping-tool.html">Prototyping Tool Vorstellung</a>
 
 **Aufgabe 2.2**
-<br><a href="https://github.com/NinaHecht/IFD-WiSe20-21/blob/main/aufgabe2/intranet-low-fid.md">Intranet Redesign Low-Fid</a>
+<br><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/intranet-low-fid.html">Intranet Redesign Low-Fid</a>
 
 ## Aufgabe 3
 <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/">Intranet High-Fid</a>
+
+## Aufgabe 4
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/vui-dokumentation.html">Dialog Flow VUI</a>
