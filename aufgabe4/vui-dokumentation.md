@@ -1,8 +1,8 @@
-# Aufgabe 04 - Dielog Flow eines BI VUI
+# Aufgabe 04 - Dialog Flow eines BI VUI
 
 ## Die Bedeutung von BI
 
-Zu Bedeutung von BI - also Business Intelligence - können verschiedene Blickwinkel verschiedene Definitionen hervorbringen. <br>
+Zur Bedeutung von BI - also Business Intelligence - können verschiedene Blickwinkel verschiedene Definitionen hervorbringen. <br>
 *"Eine weitere Definition beschreibt die BI aus einer IT-basierten und unternehmensspezifischen Sicht. Nach dieser Definition versteht man unter BI das entscheidungsorientierte Sammeln, Aufbereiten und Darstellen von geschäftsrelevanten Informationen."*
 _(Litzel, Nico: Was ist Business Intelligence - BI? https://www.bigdata-insider.de/was-ist-business-intelligence-bi-a-563185/, abgerufen am 10.11.2020)_
 
@@ -10,7 +10,8 @@ _(Litzel, Nico: Was ist Business Intelligence - BI? https://www.bigdata-insider.
 
 * Öffnen gezielt angeforderter Ressourcen
 * Auslesen gezielt angeforderter Inhalte
-* Interpretation der Art des geforderten Inhalts (Link, Dokument, Seite etc.)
+* Interpretation der Art des geforderten Inhalts (Link, Dokument, Seite, etc.)
+* Bereitstellung von Optionen entsprechend der Art des Inhalts (Vorlesen, Öffnen, Herunterladen, etc.)
 * Zusammenfassen aller aktuellen Neuigkeiten
 * Durchsuchen eines Bereichs nach einen geforderten Inhalt
 * Senden von Mitteilungen
@@ -46,7 +47,7 @@ Unterteilt wurde der Dialog Flow in vier Arten von Dialogfragmenten:
 1. Der einleitende Befehl: "Hallo Intranet" (blau)
 2. Die User Inputs (grau)
 3. Die System Outputs (grün)
-4. Der terminierende Befehl : "Danke" (gelb)
+4. Der terminierende Befehl: "Danke" (gelb)
 
 Die in Dialog in geschweiften Klammern verwendeten Begriffe sind variable In- / Outputs. 
 
