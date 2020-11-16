@@ -53,5 +53,11 @@ Die in Dialog in geschweiften Klammern verwendeten Begriffe sind variable In- / 
 
 Bei dem Kernelement - die kurze Zusammenfassung - ist eine Art Kreislauf vorgesehen, bei welchen es möglich ist, jedes der drei Elemente (Veranstaltungen, Nachrichten und Dateien) genauer zu erfragen, ohne sich die Zusammenfassung erneut anhören zu müssen (gekennzeichnet ist dieser durch die gestrichelten Pfeile).
 
+Wurde ein Thema abgehandelt ohne dass der User die Interaktion terminiert, wird er gefragt, ob er sonst noch Hilfe benötigt. Hier stehen ihm nun wieder alle Optionen frei
+
+Konnte der User Input vom VUI nicht interpretiert werden, wird er aufgefordert, seine Frage neu formuliert zu wiederholen. 
+
+Ist ein begonnenes Thema noch nicht abgehandelt und der User stellt eine Frage zu einem anderen Thema, so wird er gefragt ob er das Thema wechseln will oder bei dem aktuellen Thema bleiben.
+
 ![Dialog Flow](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.svg)
 [Dialog Flow in voller Größe](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.html)
