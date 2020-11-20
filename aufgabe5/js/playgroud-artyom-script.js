@@ -20,7 +20,6 @@ window.addEventListener("load", function(){
                 }).then(function () {
                     console.log("Ready!");
                     firstLevel = true;
-                    initialised = false;
                     Intranet.addCommands(initialCommand);
                     if (!initialised) {
                         document.getElementById("main").innerHTML = 'Beginne die Unterhaltung mit <br><br> "Hallo Intranet"';
@@ -32,7 +31,7 @@ window.addEventListener("load", function(){
         startContinuousArtyom();
 
         Intranet.when("NOT_COMMAND_MATCHED", function(){
-            Intranet.say("Hierbei kann ich dir leider nicht helfen. Frage mich zum Beispiel nach einer kurzen Zusammenfassung.");
+            Intranet.say("Ich konnte dich leider nicht verstehen. Wiederhole deine Anfrage bitte.");
         });
 
     
