@@ -22,4 +22,4 @@ Nina Hecht - OMB 5 - 260619
 <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/vui-dokumentation.html">Dialog Flow VUI</a>
 
 ## Aufgabe 5
-<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/">VUI Prototyp</a>
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/vui-prototyp.html">VUI Prototyp</a>
