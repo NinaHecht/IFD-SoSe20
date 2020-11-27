@@ -64,6 +64,7 @@ window.addEventListener("load", function(){
                 indexes:["* danke", "danke *"],
                 action:function(i,wildcard){
                     console.log("Gespräch beendet");
+                    initialised = false;
                     Intranet.emptyCommands();
                     startContinuousArtyom();
                 }
@@ -72,6 +73,7 @@ window.addEventListener("load", function(){
                 indexes:["danke"],
                 action:function(i){
                     console.log("Gespräch beendet");
+                    initialised = false;
                     Intranet.emptyCommands();
                     startContinuousArtyom();
                 }
