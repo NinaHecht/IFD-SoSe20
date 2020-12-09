@@ -9,11 +9,13 @@
 **Problem:** Der Versandkarton eignet sich nicht, da er zu dick ist<br>
 **Lösung:** Verwendung von Pappe<br><br>
 <img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/03-pappe.jpg"/>
-<img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/04-innenleben-fertig.jpg"/><br><br>
+<img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/04-innenleben-fertig.jpg"/>
+<div style="clear:both;"></div>
 
 ## Korpus
 <img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/05-papphuelle.jpg"/>
-<img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/06-papphuelle-ausgeschnitten.jpg"/><br><br>
+<img style="width: 50%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/06-papphuelle-ausgeschnitten.jpg"/>
+<div style="clear:both;"></div>
 
 ## Zusammensetzen
 <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/07-zusammengesetzt-zu-klein.jpg"/><br><br>
@@ -22,7 +24,8 @@
 **Lösung:** Verstärkung der unteren und linken Seite des Korpus mit Karton<br><br>
 <img style="width: 33.3%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/08-unten-links-aus-karton.jpg"/>
 <img style="width: 33.3%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/09-mit-papier-verkleiden.jpg"/>
-<img style="width: 33.3%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/10-mit-papier-verkleidet.jpg"/><br><br>
+<img style="width: 33.3%; float:left;" src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/10-mit-papier-verkleidet.jpg"/>
+<div style="clear:both;"></div><br>
 <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/res/11-zusammengesetzt-passt.jpg"/><br>
 
 ## Abschluss
