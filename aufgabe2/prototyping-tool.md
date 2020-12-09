@@ -7,7 +7,7 @@ Aus dieser Beschreibung lässt sich entnehmen, dass Mockplus nicht nur die Optio
 
 **Kernfeatures**
 
-![Homepage Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-home.JPG)
+![Homepage Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-home.JPG)
 
 Die Kernfeatures die Mockplus auszeichnen werden auf der Homepage direkt klargestellt: 
 * "Design Faster"
@@ -19,20 +19,20 @@ Die Kernfeatures die Mockplus auszeichnen werden auf der Homepage direkt klarges
 
 Mit Mockplus lassen sich Prototypen mit Interaktivität eines mittleren Reifegrads umsetzen. Es können sowohl Klick-Ereignisse umgesetzt werden als auch grundlegende Hover-Effekte. Die Hover-Effekte sind jedoch auf die Änderung der Textfarbe und Hintergrundfarbe des betroffenen Objekts beschränkt.
 
-![Interaktivität Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-screencast-interaktivitaet.gif)
+![Interaktivität Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-screencast-interaktivitaet.gif)
 
 **Visualisierung:**
 
 Auch im Bereich der Visualisierung können mit Mockplus erstellte Prototypen einen mittleren Reifegrad erreichen. Der Großteil der Elemente kann individuell gestaltet werden, allerdings fehlen Eigenschaften wie beispielsweise die Innenabstände (Padding), wodurch die Visualisierung eingeschränkt ist.
 
-![Designoptionen Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-designoptionen.JPG)
+![Designoptionen Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-designoptionen.JPG)
 Auf diesem Screenshot kann man die Designoptionen, welche Mockplus für einen Button bietet, erkennen. Es ist erkenntlich, dass zwar die Höhe und Breite anpassbar sind, jedoch ist es nicht möglich genaue Innenabstände anzugeben.
 
 **Inhaltsentwicklung:**
 
 Die Inhaltsentwicklung mithilfe Mockplus hat einen sehr hohen Reifegrad. Per Doppelklick auf eine der vorgefertigten Komponenten kann der Inhalt sofort von dem Beispieltext angepasst werden.
 
-![Interaktivität Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-screencast-inhaltsentwicklung.gif)
+![Interaktivität Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-screencast-inhaltsentwicklung.gif)
 
 ## Komplexität
 
@@ -40,7 +40,7 @@ Die Bedienung von Mockplus ist, besonders für Nutzer, welche bereits Erfahrunge
 
 [Mockplus Tutorial](https://www.youtube.com/watch?v=r8E9Lwv5U8k&ab_channel=Mockplus)
 
-![Oberfläche Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-oberflaeche.png)
+![Oberfläche Mockplus](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-oberflaeche.png)
 
 ## Beispiele
 
@@ -48,7 +48,7 @@ Leider habe ich außer den selbsterstellten Screencast keine Beispiele, welche m
 
 Das Mockplus Classic Downoad bringt allerdings ein Demo-Projekt mit sich, welches ich aus Mangel an alternativen (realen) Prototypen, welche mit diesem Tool entstanden sind, hier als Beispiel einbringe.
 
-[Mockplus Demo-Projekt Prototyp](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/Gogobot/)
+[Mockplus Demo-Projekt Prototyp](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/Gogobot/)
 
 ## Grenzen
 
@@ -59,5 +59,5 @@ Zusammenfassend kann man also sagen, dass das Tool sich vor allem dazu eigenet, 
 
 Mockplus bietet zudem eine andere Version (welche ich leider, um sie hier vorzustellen zu spät entdeckt habe) des Prototyping Tools, Mockplus RP an, welches augenscheinlich auch High-Fid Prototypen ermöglicht. Die Oberfläche von Mockplus RP sieht moderner und anprechender aus als die der Classic-Version und erinnert auch etwas mehr an Adobe XD. 
 
-![Mockplus RP](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/mockplus-rp.png)
+![Mockplus RP](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-rp.png)
 [Bildquelle: Mockplus RP](https://www.mockplus.com/mockplus-rp)

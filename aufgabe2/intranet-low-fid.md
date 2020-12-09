@@ -4,7 +4,7 @@ Allgemein habe ich versucht, das grobe Layout möglichst beizubehalten, um den W
 
 ## Dashboard / Startseite
 
-![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/intranet-startseite.jpg)
+![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-startseite.jpg)
 
 (1) Navigationsleiste  
 Die Navigationsleiste wurde überarbeitet: Anstelle des Liks "Fakultät" führt ein Klick auf das Logo der HFU zum Dashboard zurück. Die Menüpunkte dieser Leiste bleiben wie sie bereits sind, da dies erfahrungsgemäß die am häufigsten genutzten Links sind. Zudem wird die Navigationsleiste durch drei Icons ergänzt. Die Lupe repräsentiert die Suche, das Männchen das eigene Profil und die drei Balken ein "Dropdown"-Menü, in welchem andere wichtige Links gefunden werden können. Diese sind weiterhin schnell erreichbar, die Seite ist jedoch nicht direkt mit verschiedensten Links überladen.
@@ -23,7 +23,7 @@ Unter der Veranstaltungsübersicht wird ein wochenspezifischer Stundenplan, welc
 
 ## Kursseite Studierende
 
-![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/Intranet-kursseite-studierende.jpg)
+![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/Intranet-kursseite-studierende.jpg)
 
 (1) Tab-Leiste  
 Auch die Kursseite wird durch eine Tab-Leiste organisiert, um einen möglichst einheitlichen Workflow innerhalb der verschiedenen Bereiche des Intranets zu erreichen. Zudem werden die Labels für die Punkte "Dateien" und "Nachrichten" mit einem Indikator ergänzt, welcher dem Nutzer zeigt, ob dort Neues zu finden ist, also ob es Sinn macht, reinzuklicken.
@@ -39,7 +39,7 @@ Sowohl die Liste der Teilnehmer und die Option, eine Mail an den Kurs zu versend
 
 ## Kursseite Lehrende
 
-![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/ressources/intranet-kursseite-lehrende.jpg)
+![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-kursseite-lehrende.jpg)
 
 (1) Tab-Leiste  
 Wie die Ansicht der Studierenden wird auch die der Lehrenden über dieselbe Tableiste organisiert. Anstelle von Indikatoren zur Info über neue Dateien / Nachrichten befindet sich für die Lehrenden dort ein Plus, über welches direkt eine neue Nachricht oder Datei hinzugefügt werden kann, ohne in den jeweiligen Tab navigieren zu müssen (was aber natürlich auch möglich ist).
