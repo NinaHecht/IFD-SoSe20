@@ -25,4 +25,7 @@ Nina Hecht - OMB 5 - 260619
 <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/vui-prototyp.html">VUI Prototyp</a>
 
 ## Aufgabe 6
- <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/cardboard-vr-dokumentation.html">Cardboard VR Brille</a>
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/cardboard-vr-dokumentation.html">Cardboard VR Brille</a>
+
+## Aufgabe 7
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe7/vr-konzept.html">VR Konzept</a>
