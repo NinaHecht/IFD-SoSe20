@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IFD - Nina Hecht - A2.1</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: #171717;
+            }
+            ::selection{
+                background:  rgba(255,195,113,1);
+                color: white;
+            }
+            ::-moz-selection {
+                background: rgba(255,195,113,1);
+                color: white;
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+            }
+            .content {
+                padding: 20px 10vw;
+            }
+            h1, h2 {
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 750px;
+                margin-bottom: 1rem;
+            }
+            .underline {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Konzeptentwurf Intranet Redesign (Low-Fidelity)</h1>
+            <section>
+                <h2>Grundgedanke</h2>
+                <p>Allgemein habe ich versucht, das grobe Layout möglichst beizubehalten, um den Workflow, der sich bei den Studierenden 
+                    und Lehrenden nach einiger Zeit der Nutzung des Intranets sicherlich ergeben hat, nicht zu stark zu stören. 
+                    Dazu gehört das beibehalten der oberen Navigationsleiste, sowie die Positionierung der zusätzlichen Links, der Suche 
+                    und des Profils auf der rechten Seite.
+                </p>
+            </section>
+            <section>
+                <h2>1. Startseite (Dashboard)</h2>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-startseite.jpg"/>
+                <p><span class="underline">(1) Navigationsleiste</span>
+                    Die Navigationsleiste wurde überarbeitet: Anstelle des Liks "Fakultät" führt ein Klick auf das Logo der HFU zum 
+                    Dashboard zurück. Die Menüpunkte dieser Leiste bleiben wie sie bereits sind, da dies erfahrungsgemäß die am 
+                    häufigsten genutzten Links sind. Zudem wird die Navigationsleiste durch drei Icons ergänzt. Die Lupe repräsentiert 
+                    die Suche, das Männchen das eigene Profil und die drei Balken ein "Dropdown"-Menü, in welchem andere wichtige Links 
+                    gefunden werden können. Diese sind weiterhin schnell erreichbar, die Seite ist jedoch nicht direkt mit 
+                    verschiedensten Links überladen.
+                </p>
+                <p><span class="underline">(2) Dropdown-Menü</span>
+                    Das Dropdown-Menü ist in drei Sektionen unterteilt. Zuerst kommt getrennt von allem die Option zum Abmelden. Diese 
+                    ist nicht direkt auf der Startseite platziert, da man durch das Schließen des Intranet-Tabs automatisch abgemeldet 
+                    wird und der Logout-Button daher erfahrungsgemäß selten genutzt wird. In der zweiten Sektion befindet sich eine 
+                    Sammmlung an Links, welche zu anderen Plattformen / Anwendungen der HFU führen. Hier wurden die vorhandenen Links 
+                    ergänzt. In der letzten Sektion befindet sich ein auskappbarer Menüpunkt. Hier sind sämtliche restliche Links zu 
+                    finden. Sie sind in der untersten zu finden, da ich sie persönlich noch nie benutzt habe, sie aber nicht ganz 
+                    rausnehmen wollte, da das für andere Studierende oder für die Lehrenden anders sein kann.
+                </p>
+                <p><span class="underline">(3) Tab-Leiste</span>
+                    Das Dashboard an sich habe ich mithilfe einer Tab-Leiste organisiert. Anstatt alle Informationen strukturlos 
+                    nebeneinander anzuzeigen entschied ich mich, immer nur eine "Informationsgruppe" auf einmal anzuzeigen. Beim Laden 
+                    der Seite wird der Tab, der die Informationen über die gebuchten Veranstaltungen beinhaltet angezeigt, da diese 
+                    erfahrungsgemäß am meisten genutzt wird. Alle anderen Informationen können durch einen Klick auf den entsprechenden 
+                    Tab eingesehen werden. Wichtig ist hier auch, dass durch das Hinzufügen einer Navigationsebene (nicht alle 
+                    Informationen sind direkt sichtbar, sondern müssen spezifisch angefragt werden) an einer anderen Stelle der 
+                    Workflow wieder beschleunigt werden sollte. Bei den Veranstaltungen geschieht das beispielsweise dadurch, dass 
+                    neben den Dateien und Nachrichten auch ein Direktlink (z.B. zur Online-Veransaltung oder zum Felix-Kurs) sowie ein 
+                    Link mit der Option, direkt dem Dozenten eine Mail zukommen zu lassen, zu finden sind.
+                </p>
+                <p><span class="underline">(4) Footer</span>
+                    Das Intranet bekommt einen kleinen Footer, in dem wie es auf Websites üblich ist, Impressum und Datenschutz zu 
+                    finden sind.
+                </p>
+                <p><span class="underline">(5) Stundenplan</span>
+                    Unter der Veranstaltungsübersicht wird ein wochenspezifischer Stundenplan, welcher die Termine aller gebuchten 
+                    Veranstaltungen zusammenträgt. So kann Nutzer sofort erkennen, wann in der aktuellen Woche welche Termine hat.
+                </p>
+            </section>
+            <section>
+                <h2>2. Kursseite für Studierende</h2>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-kursseite-studierende.jpg"/>
+                <p><span class="underline">(1) Tab-Leiste</span>
+                    Auch die Kursseite wird durch eine Tab-Leiste organisiert, um einen möglichst einheitlichen Workflow innerhalb 
+                    der verschiedenen Bereiche des Intranets zu erreichen. Zudem werden die Labels für die Punkte "Dateien" und 
+                    "Nachrichten" mit einem Indikator ergänzt, welcher dem Nutzer zeigt, ob dort Neues zu finden ist, also ob es Sinn 
+                    macht, reinzuklicken.
+                </p>
+                <p><span class="underline">(2) Allgemeine Informationen</span>
+                    Der Infobereich aller Kurse soll mit einem immer gleich struktierten Block zu den Allgeinen Informationen beginnen. 
+                    So soll es den Studierenden einfacher gemacht werden, gewisse Informationen zu finden. Eine eventuelle Kursseite 
+                    wird immer am selben Ort verlinkt, es muss kein langer Infotext nach diesem abgesucht werden. Zudem wird der Termin 
+                    ("Zeitpunkt") eingetragen, wodurch besonders bei WPVs ein langes Suchen im Stundenplan nicht mehr nötig ist.
+                </p>
+                <p><span class="underline">(3) Dropdown-Sektionen</span>
+                    Zusätzliche Informationen, welche nicht regelmäßig benötigt werden können in Dropdown-Sektionen eingefügt werden. 
+                    Standardmäßig sind diese Sektionen eingeklappt, um Übersicht über die verschiedenen Informationsblöcke zu 
+                    verschaffen. Sie können dann nach Bedarf ausgeklappt werden.
+                </p>
+                <p><span class="underline">(4) Teilnehmer und Mail</span>
+                    Sowohl die Liste der Teilnehmer und die Option, eine Mail an den Kurs zu versenden, werden dem Menüpunkt "Info" 
+                    untergeordnet. Das Buchen bzw. Stornieren einer Veranstaltung ist über das "-" bzw "+" vor der Teilnehmerliste 
+                    möglich (man trägt sich also quasi als Teilnehmer ein oder aus). Darunter befinden sich die Optionen "Mail an alle" 
+                    und "Mail an Donzent" (Studierende wollen selten allen Kursteilnehmern etwas schicken, aber dem Dozenten schon öfter).
+                </p>
+            </section>
+            <section>
+                <h2>3. Kursseite für Lehrende</h2>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-kursseite-lehrende.jpg"/>
+                <p><span class="underline">(1) Tab-Leiste</span>
+                    Wie die Ansicht der Studierenden wird auch die der Lehrenden über dieselbe Tableiste organisiert. Anstelle von 
+                    Indikatoren zur Info über neue Dateien / Nachrichten befindet sich für die Lehrenden dort ein Plus, über welches 
+                    direkt eine neue Nachricht oder Datei hinzugefügt werden kann, ohne in den jeweiligen Tab navigieren zu müssen (was 
+                    aber natürlich auch möglich ist).
+                </p>
+                <p><span class="underline">(2) Edit-Icons</span>
+                    Jeder Informationsblock, welcher von dem Lehrenden bearbeitet werden kann, wird durch ein Edit-Icon gekennzeichnet. 
+                    Durch den Klick auf dieses Icon können die Informationen direkt abgeändert werden. 
+                </p>
+                <p><span class="underline">(3) Teilnehmer Verwaltung</span>
+                    Der Lehrende hat die Option, Teilnehmer aus einer Veranstaltung zu entfernen. Diese Option gibt es vor allem, 
+                    damit er am Ende des Semesters seine Veranstaltung aufräumen kann.
+                </p>
+            </section>
+        </div>
+    </body>
+</html>

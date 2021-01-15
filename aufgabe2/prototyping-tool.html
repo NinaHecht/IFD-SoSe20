@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IFD - Nina Hecht - A2.2</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: #171717;
+            }
+            ::selection{
+                background:  rgba(255,195,113,1);
+                color: white;
+            }
+            ::-moz-selection {
+                background: rgba(255,195,113,1);
+                color: white;
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+            }
+            .content {
+                padding: 20px 10vw;
+            }
+            h1, h2, h3 {
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 750px;
+                margin-bottom: 1rem;
+            }
+            .underline {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+            a {
+                color: #171717;
+            }
+            a:hover {
+                color: #171717;
+                text-decoration: underline;
+            }
+            ul {
+                padding: 0 20px;
+                margin-bottom: 1rem;
+            }
+            .img-src {
+                font-size: 0.7rem;
+                margin-top: -18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Prototyping Tool Vorstellung: Mockplus Classic</h1>
+            <section>
+                <h2>Allgemeine Beschreibung</h2>
+                <p>Auf der Homepage von Mockplus findet man die Beschreibung "The mot robust all-in-one product design platform for 
+                    prototyping, collaboration, and design systems" (Zitat: <a href="https://www.mockplus.com/?home=1">
+                    https://www.mockplus.com/?home=1</a>). <br>
+                    Aus dieser Beschreibung lässt sich entnehmen, dass Mockplus nicht nur die Option der Prototypen Erstellung anbietet, 
+                    sondern zusätzliche Funktionen, die Möglichkeit zur kollaborativen Arbeit an ebendiesen und auch die Erstellung von 
+                    Design Systemen anbietet. Insgesamt soll die Nutzung von Mockplus dem Nutzer vor allem Zeit sparen.
+                </p>
+                <h3>Kernfeatures</h3>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-home.JPG"/>
+                <p class="img-src">Bildquelle: (eigener) Screenshot der Homepage <a href="https://www.mockplus.com/?home=1">https://www.mockplus.com/?home=1</a></p>
+                <ul>
+                    <li>"Design Faster"</li>
+                    <li>"Collaborate Better"</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Fidelity</h2>
+                <h3>1. Interaktivität</h3>
+                <p>Mit Mockplus lassen sich Prototypen mit Interaktivität eines mittleren Reifegrads umsetzen. Es können sowohl 
+                    Klick-Ereignisse umgesetzt werden als auch grundlegende Hover-Effekte. Die Hover-Effekte sind jedoch auf die 
+                    Änderung der Textfarbe und Hintergrundfarbe des betroffenen Objekts beschränkt.
+                </p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-screencast-interaktivitaet.gif"/>
+                <p class="img-src">Bildquelle: (eigener) Screencast der Anwendung</p>
+
+                <h3>2. Visualisierung</h3>
+                <p>Auch im Bereich der Visualisierung können mit Mockplus erstellte Prototypen einen mittleren Reifegrad erreichen. 
+                    Der Großteil der Elemente kann individuell gestaltet werden, allerdings fehlen Eigenschaften wie beispielsweise 
+                    die Innenabstände (Padding), wodurch die Visualisierung eingeschränkt ist.
+                </p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-designoptionen.JPG" style="width: 150px;"/>
+                <p class="img-src">Bildquelle: (eigener) Screenshot der Anwendung</p>
+                <p>Auf diesem Screenshot kann man die Designoptionen, welche Mockplus für einen Button bietet, erkennen. Es ist 
+                    erkenntlich, dass zwar die Höhe und Breite anpassbar sind, jedoch ist es nicht möglich genaue Innenabstände 
+                    anzugeben.
+                </p>
+
+                <h3>3. Inhaltsentwicklung</h3>
+                <p>Die Inhaltsentwicklung mithilfe Mockplus hat einen sehr hohen Reifegrad. Per Doppelklick auf eine der vorgefertigten 
+                    Komponenten kann der Inhalt sofort von dem Beispieltext zu den eigenen Inhalten angepasst werden.
+                </p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-screencast-inhaltsentwicklung.gif"/>
+                <p class="img-src">Bildquelle: (eigener) Screencast der Anwendung</p>
+            </section>
+            <section>
+                <h2>Komplexität</h2>
+                <p>Die Bedienung von Mockplus ist, besonders für Nutzer, welche bereits Erfahrungen mit anderen Prototyping Tools 
+                    gemacht haben, sehr unkompliziert und intuitiv. Dies gehört auch zu der beworbenen Einfachheit und Geschwindigkeit 
+                    im Umgang mit der Anwendung. Noch einfacher gestaltet sich der Einstieg in das Tool, wenn man sich das nur 
+                    10-minütige Tutorial von Mockplus selbst anschaut, welches die Grundfunktionen erklärt.
+                </p>
+                <p><a href="https://www.youtube.com/watch?v=r8E9Lwv5U8k&ab_channel=Mockplus">Mockplus Tutorial</a></p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-oberflaeche.png"/>
+                <p class="img-src">Bildquelle: (eigener) Screenshot der Anwendung</p>
+            </section>
+            <section>
+                <h2>Beispiele</h2>
+                <p>Leider habe ich außer den selbsterstellten Screencast keine Beispiele, welche mit diesem Prototyping Tool entstanden, 
+                    da ich bisherige Prototypen mit Adobe XD erstellt habe. Die Erstellung eines Prototypens nur um ein Beispiel zu haben 
+                    würde zudem leider den Zeitrahmen "sprengen" und die Suche im Internet hat leider auch keine Prototypen hevorgebracht, 
+                    nur einige Tutorials zur Anwendung des Tools wie folgendes: 
+                    <a href="https://www.youtube.com/watch?v=_MfQPBut11I&ab_channel=DesignPilot">"How to Prototype Faster with Mockplus! 2019"</a>
+                </p>
+                <p>Das Mockplus Classic Downoad bringt allerdings ein Demo-Projekt mit sich, welches ich aus Mangel an alternativen 
+                    (realen) Prototypen, welche mit diesem Tool entstanden sind, hier als Beispiel einbringe.
+                </p>
+                <p><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/Gogobot/">Mockplus Demo-Projekt Prototyp</a></p>
+            </section>
+            <section>
+                <h2>Grenzen</h2>
+                <p>Das Tool hat einige Grenzen, welche ich bei der Bewertung der Fidelity bereits aufgeführt habe, wie die 
+                    Einschränkungen bei der Erstellung von Hover-Events und dem Mangel einer Möglichkeit Innenabstände für Elemente 
+                    anzugeben.<br>
+                    Zudem entstehen weitere Einschränkungen für Nutzer, welche mit der kostenlosen Funktion arbeiten. Hier fehlen 
+                    nämlich einige Export Optionen sowie eines der beworbenen Kernfeatures: Die Möglichkeit einer Kollaboration an 
+                    einem Mockplus Projekt.
+                </p>
+                <p>Zusammenfassend kann man also sagen, dass das Tool sich vor allem dazu eigenet, eine Idee möglichst schnell 
+                    festzuhalten. Wer jedoch einen High-Fidelity Prototypen benötigt, sollte auf ein anderes Tool zurückgreifen. 
+                </p>
+                <p>Mockplus bietet zudem eine andere Version (welche ich leider, um sie hier vorzustellen zu spät entdeckt habe) des 
+                    Prototyping Tools, Mockplus RP an, welches augenscheinlich auch High-Fid Prototypen ermöglicht. Die Oberfläche 
+                    von Mockplus RP sieht moderner und anprechender aus als die der Classic-Version und erinnert auch mehr 
+                    an Adobe XD. 
+                </p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/mockplus-rp.png"/>
+                <p class="img-src">Bildquelle: <a href="https://www.mockplus.com/mockplus-rp">https://www.mockplus.com/mockplus-rp</a></p>
+            </section>
+        </div>
+    </body>
+</html>

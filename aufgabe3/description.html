@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IFD - Nina Hecht - A3</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: #171717;
+            }
+            ::selection{
+                background:  rgba(255,195,113,1);
+                color: white;
+            }
+            ::-moz-selection {
+                background: rgba(255,195,113,1);
+                color: white;
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+            }
+            .content {
+                padding: 20px 10vw;
+            }
+            h1, h2, h3 {
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 750px;
+                margin-bottom: 1rem;
+            }
+            .underline {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+            a {
+                color: #171717;
+            }
+            a:hover {
+                color: #171717;
+                text-decoration: underline;
+            }
+            ul {
+                padding: 0 20px;
+                margin-bottom: 1rem;
+            }
+            .img-src {
+                font-size: 0.7rem;
+                margin-top: -18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Intranet Graphical User Interface Redesign</h1>
+            <section>
+                <h2>Aufgabenstellung</h2>
+                <p>Die Aufgabe bestand darin, ein neues GUI (Graphical User Interface), also eine neue Nutzeroberfläche, für das 
+                    Intranet der Fakultät Digitale Medien der HFU zu gestalten. Es sollten die Startseite sowie eine Kursseite für 
+                    Lehrende und Studierende überarbeitet werden. Die aktuelle Startseite des Intranets sieht folgendermaßen aus:
+                </p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/res/intranet-alt.JPG"/>
+                <p class="img-src">Bildquelle: (eigener) Screenshot</p>
+                <p>Wie man erkennen kann, ist die Informationsmenge nicht gering. Daher war ein wichtiger Aspekt für das neue GUI, 
+                    die kognitive Last für den Nutzer zu reduzieren.
+                </p>
+
+                <h3>1. Konzeption des GUIs als Skizze (Low-Fidelity)</h3>
+                <p>Im ersten Schritt sollte man die eigenen Ideen mit niedrigem inhaltlichen, visuellen und interaktiven Reifegrad 
+                    (=Low-Fidelity) darstellen. Hierfür eignet sich beispielsweise eine einfache Zeichung, welche kein Design benötigt 
+                    und auch Platzhalter beinhalten kann. 
+                </p>
+                <p>
+                    <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/intranet-low-fid.html">Zur GUI Konzeption (Low-Fidelity)</a>
+                </p>
+
+                <h3>2. Prototypische Umsetzung des GUI Konzeptes (High-Fidelity)</h3>
+                <p>Anschließend wurde die Low-Fidelity Konzeption nochmals überarbeitet und prototypisch mit hohem Reifegrad umgesetzt. 
+                    Ich entschied mich, anstelle eines Prototyping-Tools, Webtechnologien (HTML, CSS, JS) für die Umsetzung zu verwenden.
+                </p>
+                <p>
+                    <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/">Zum GUI Prototyp (High-Fidelity)</a>
+                </p>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IFD - Nina Hecht - A4</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: #171717;
+            }
+            ::selection{
+                background:  rgba(255,195,113,1);
+                color: white;
+            }
+            ::-moz-selection {
+                background: rgba(255,195,113,1);
+                color: white;
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+            }
+            .content {
+                padding: 20px 10vw;
+            }
+            h1, h2, h3 {
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 750px;
+                margin-bottom: 1rem;
+            }
+            .underline {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+            a {
+                color: #171717;
+            }
+            a:hover {
+                color: #171717;
+                text-decoration: underline;
+            }
+            ul {
+                padding: 0 20px;
+                margin-bottom: 1rem;
+            }
+            .img-src {
+                font-size: 0.7rem;
+                margin-top: -18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Dialog Flow eines BI Voice User Interface</h1>
+            <section>
+                <h2>Die Bedeutung von BI</h2>
+                <p>Zur Bedeutung von BI - also Business Intelligence - können verschiedene Blickwinkel verschiedene Definitionen 
+                    hervorbringen. <br>
+                    "Eine weitere Definition beschreibt die BI aus einer IT-basierten und unternehmensspezifischen Sicht. Nach dieser 
+                    Definition versteht man unter BI das entscheidungsorientierte Sammeln, Aufbereiten und Darstellen von 
+                    geschäftsrelevanten Informationen." (Zitat: <a href="https://www.bigdata-insider.de/was-ist-business-intelligence-bi-a-563185/">Litzel, Nico: Was ist Business Intelligence - BI?, abgerufen am 10.11.2020</a>)
+                </p>
+            </section>
+            <section>
+                <h2>Kompetenzbereich des BI VUI</h2>
+                <ul>
+                    <li>Öffnen gezielt angeforderter Ressourcen</li>
+                    <li>Auslesen gezielt angeforderter Inhalte</li>
+                    <li>Interpretation der Art des geforderten Inhalts (Link, Dokument, Seite, etc.)</li>
+                    <li>Bereitstellung von Optionen entsprechend der Art des Inhalts (Vorlesen, Öffnen, Herunterladen, etc.)</li>
+                    <li>Zusammenfassen aller aktuellen Neuigkeiten</li>
+                    <li>Durchsuchen eines Bereichs nach einen geforderten Inhalt</li>
+                    <li>Senden von Mitteilungen</li>
+                    <li>Setzen von Timern</li>
+                </ul>
+                <p>Hieraus ergeben sich beispielsweise folgende</p>
+
+                <p class="underline">Fragen</p>
+                <ul>
+                    <li>Wo findet Veranstaltung XY statt?</li>
+                    <li>Wann habe ich heute meine erste Veranstaltung?</li>
+                    <li>Was gibt es heute in der Mensa?</li>
+                    <li>...</li>
+                </ul>
+
+                <p class="underline">& Befehle</p>
+                <ul>
+                    <li>Öffne den Dateibereich der Veranstaltung XY</li>
+                    <li>Eine kurze Zusammenfassung</li>
+                    <li>Stelle einen Timer für X Minuten</li>
+                    <li>Schreibe eine Nachricht an XY mit dem Betreff X und der Nachricht Y</li>
+                    <li>Durchsuche die Veranstaltung XY nach Info X</li>
+                    <li>Öffne das Dokument mit der Info X</li>
+                    <li>Lade die Datei XY herunter</li>
+                    <li>Lies die Nachricht Y vor</li>
+                    <li>...</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Der Dialog Flow</h2>
+                <p>Mithilfe der zuvor definierten Fragen und Befehle wurden mögliche Dialogkonstrukte gebildet und als Dialog Flow 
+                    dargestellt.
+                </p>
+                <p>Unterteilt wurde der Dialog Flow in vier Arten von Dialogfragmenten:</p>
+                <p>1. Der einleitende Befehl: "Hallo Intranet" (blau)<br>
+                    2. Die User Inputs (grau)<br>
+                    3. Die System Outputs (grün)<br>
+                    4. Der terminierende Befehl: "Danke" (gelb)#
+                </p>
+                <p>Die im Dialog in geschweiften Klammern verwendeten Begriffe sind variable In- / Outputs.</p>
+                <p>Bei dem Kernelement - die kurze Zusammenfassung - ist eine Art Kreislauf vorgesehen, bei welchen es möglich ist, 
+                    jedes der drei Elemente (Veranstaltungen, Nachrichten und Dateien) genauer zu erfragen, ohne sich die 
+                    Zusammenfassung erneut anhören zu müssen (gekennzeichnet ist dieser durch die gestrichelten Pfeile).
+                </p>
+                <p>Wurde ein Thema abgehandelt ohne dass der User die Interaktion terminiert, wird er gefragt, ob er sonst noch Hilfe 
+                    benötigt. Hier stehen ihm nun wieder alle Optionen frei
+                </p>
+                <p>Konnte der User Input vom VUI nicht interpretiert werden, wird er aufgefordert, seine Frage neu formuliert zu 
+                    wiederholen.
+                </p>
+                <p>Ist ein begonnenes Thema noch nicht abgehandelt und der User stellt eine Frage zu einem anderen Thema, so wird 
+                    er gefragt ob er das Thema wechseln will oder bei dem aktuellen Thema bleiben.</p>
+                <img src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.svg"/>
+                <p><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/dialog-flow.html">Dialog Flow in voller Größe</a></p>
+            </section>
+        </div>
+    </body>
+</html>
