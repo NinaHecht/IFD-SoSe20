@@ -1,5 +1,7 @@
 # Intranet Redesign Low-Fid
 
+## Grundgedanke
+
 Allgemein habe ich versucht, das grobe Layout möglichst beizubehalten, um den Workflow, der sich bei den Studierenden und Lehrenden nach einiger Zeit der Nutzung des Intranets sicherlich ergeben hat, nicht zu stark zu stören. Dazu gehört das beibehalten der oberen Navigationsleiste, sowie die Positionierung der zusätzlichen Links, der Suche und des Profils auf der rechten Seite.
 
 ## Dashboard / Startseite
@@ -23,7 +25,7 @@ Unter der Veranstaltungsübersicht wird ein wochenspezifischer Stundenplan, welc
 
 ## Kursseite Studierende
 
-![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/Intranet-kursseite-studierende.jpg)
+![Startseite Intranet](https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/res/intranet-kursseite-studierende.jpg)
 
 (1) Tab-Leiste  
 Auch die Kursseite wird durch eine Tab-Leiste organisiert, um einen möglichst einheitlichen Workflow innerhalb der verschiedenen Bereiche des Intranets zu erreichen. Zudem werden die Labels für die Punkte "Dateien" und "Nachrichten" mit einem Indikator ergänzt, welcher dem Nutzer zeigt, ob dort Neues zu finden ist, also ob es Sinn macht, reinzuklicken.
