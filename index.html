@@ -12,7 +12,8 @@
                 margin: 0;
                 padding: 0;
                 font-weight: 400;
-                color: white;
+                color: #171717;
+                box-sizing: border-box;
             }
             ::selection {
                 background: white;
@@ -24,48 +25,78 @@
             }
             html {
                 font-family: 'Barlow', sans-serif;
-                height: 100%;
-            }
-            body {
-                height: 100%;
             }
             .content {
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                padding: 20px 10vw;
+                min-height: 100vh;
                 background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
             }
-            h1 {
-                font-size: 4rem;
-            }
-            h2 {
-                font-size: 2rem;
-                margin-bottom: 2rem;
-            }
             h1, h2 {
+                color: white;
                 text-align: center;
             }
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            img {
+                width: 100%;
+            }
             a {
-                font-size: 2rem;
-                color: white;
                 text-decoration: none;
             }
-            a:hover {
+            .underline {
+                display: block;
                 text-decoration: underline;
+                margin-bottom: 5px;
             }
-            @media (max-width: 300px) {
-                h1 {
-                    font-size: 2rem;
-                }
-                h2 {
-                    font-size: 1rem;
-                    margin-bottom: 1rem;
-                }
-                a {
-                    font-size: 1rem;
-                }
+            ul {
+                padding: 0 20px;
+                margin-bottom: 1rem;
+            }
+            .content__links {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .tasks {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: center;
+                margin: 0 -15px;
+                max-width: 1200px;
+            }
+            .tasks .task {
+                width: 250px;
+                margin: 0 15px 30px 15px;
+                position: relative;
+                border-radius: 10px;
+                background:rgba(255,255,255,0.3);
+                transition: all 0.2s;
+            }
+            .task:hover {
+                transform: scale(0.95);
+            }
+            .task__preview {
+                border-radius: 10px 10px 0 0;
+                padding: 5px;
+            }
+            .task__title {
+                padding: 15px 15px 10px 15px;
+                text-align: center;
+                text-decoration: underline;
+                height: 63px;
+            }
+            .task__subtitle {
+                padding: 0 15px 20px 15px;
+                text-align: center;
+                height: 77px;
             }
         </style>
     </head>
@@ -74,15 +105,53 @@
             <h1>Nina Hecht</h1>
             <h2>Interface Design Wintersemester 2020-2021</h2>
             <div class="content__links">
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe0/" target="_blank">#00 Swot Analyse</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe1/wallet-project-documentation.pdf" target="_blank">#01 Wallet Project</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/prototyping-tool.html" target="_blank">#02.1 Prototyping Tool</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/intranet-low-fid.html" target="_blank">#02.2 Intranet Low-Fid</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/description.html" target="_blank">#03 Intranet High-Fid</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/vui-dokumentation.html" target="_blank">#04 VUI Konzept</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/vui-prototyp.html" target="_blank">#05 VUI Prototyp</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/cardboard-vr-dokumentation.html" target="_blank">#06 Cardboard VR</a><br>
-                <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe7/vr-konzept.html" target="_blank">#07 VR Konzept</a>
+                <div class="tasks">
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe0/" target="_blank">
+                        <img class="task__preview" src="res/task0.webp"/>
+                        <p class="task__title">#00 SWOT-Analyse</p>
+                        <p class="task__subtitle">Im Kontext des Kurses Interface Design</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe1/wallet-project-documentation.pdf" target="_blank">
+                        <img class="task__preview" src="res/task1.webp"/>
+                        <p class="task__title">#01 The Wallet Project</p>
+                        <p class="task__subtitle">A try run through the full Design Thinking cicle</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/prototyping-tool.html" target="_blank">
+                        <img class="task__preview" src="res/task2-1.webp"/>
+                        <p class="task__title">#02.1 Prototyping Tool Vorstellung</p>
+                        <p class="task__subtitle">Das GUI Prototyping Tool "Mockplus Classic"</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe2/intranet-low-fid.html" target="_blank">
+                        <img class="task__preview" src="res/task2-2.webp"/>
+                        <p class="task__title">#02.2 Graphical User Interface Konzept</p>
+                        <p class="task__subtitle">Redesign des DM-Intranets als Low-Fidelity Skizze</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe3/description.html" target="_blank">
+                        <img class="task__preview" src="res/task3.webp"/>
+                        <p class="task__title">#03 Graphical User Interface Prototyp</p>
+                        <p class="task__subtitle">High-Fidelity prototypische Umsetzung des Intranet Redesigns</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe4/vui-dokumentation.html" target="_blank">
+                        <img class="task__preview" src="res/task4.webp"/>
+                        <p class="task__title">#04 Voice User Interface Konzept</p>
+                        <p class="task__subtitle">Dialog-Flow Konzept eines Sprachassitenten für das DM-Intranet</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/vui-prototyp.html" target="_blank">
+                        <img class="task__preview" src="res/task5.webp"/>
+                        <p class="task__title">#05 Voice User Interface Prototyp</p>
+                        <p class="task__subtitle">Prototypische Umsetzung des VUI-Konzepts mit Artyom.js</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe6/cardboard-vr-dokumentation.html" target="_blank">
+                        <img class="task__preview" src="res/task6.webp"/>
+                        <p class="task__title">#06 Cardboard VR Brille</p>
+                        <p class="task__subtitle">Kleines Bastelabendteuer: Die Google Cardboard Brille</p>
+                    </a></div>
+                    <div class="task"><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe7/vr-konzept.html" target="_blank">
+                        <img class="task__preview" src="res/task7.webp"/>
+                        <p class="task__title">#07 Virtual Reality Konzept</p>
+                        <p class="task__subtitle">Konzept zur Verbesserung der Interaktivität einer VR-Gesprächsrunde</p>
+                    </a></div>
+                </div>
             </div>
         </div>
     </body>
