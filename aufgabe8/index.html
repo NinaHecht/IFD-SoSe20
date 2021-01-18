@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A8 - Nina Hecht - IFD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="assets/artyom.window.min.js"></script>
+</head>
+
+<body>
+    <input type="hidden" id="play">
+    <a-scene>
+        <a-assets>
+            <video src="assets/video-snippet.mp4" id="360_video" muted autoplay></video>
+        </a-assets>
+
+        <a-camera wasd-controls-enabled="false">
+            <a-entity cursor="fuse: true; fuseTimeout: 1500" position="0 0 -1" geometry="primitive: sphere; radius: 0.005" material="color: black; shader: flat; opacity: 0.5">
+                <a-ring color="white" position="0 0 -1" radius-inner="0.005" radius-outer="0.01"></a-ring>
+            </a-entity>
+        </a-camera>
+
+        <a-sky src="#360_video" rotation="0 90 0"></a-sky>
+
+    </a-scene>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
