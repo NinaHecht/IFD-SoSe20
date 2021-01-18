@@ -14,12 +14,44 @@
     <input type="hidden" id="play">
     <a-scene>
         <a-assets>
+            <img src="assets/interactions.png" alt="Available Interactions" id="interactions">
             <video src="assets/video-snippet.mp4" id="360_video" muted autoplay></video>
         </a-assets>
 
         <a-camera wasd-controls-enabled="false">
             <a-entity cursor="fuse: true; fuseTimeout: 1500" position="0 0 -1" geometry="primitive: sphere; radius: 0.005" material="color: black; shader: flat; opacity: 0.5">
                 <a-ring color="white" position="0 0 -1" radius-inner="0.005" radius-outer="0.01"></a-ring>
+            </a-entity>
+
+            <a-entity position="-4.5 1.9 -3">
+                <a-image src="#interactions" ></a-image>
+            </a-entity>
+
+            <a-entity id="mail" position="0 0 -2" scale="2 2.5 1" visible="false">
+                <a-plane material="color: white; shader: flat; opacity: 0.4">
+                    <a-text  
+                        position="-0.45 0.4 0"
+                        value="E-Mail an Redenden"
+                        color="black"
+                        width="2"
+                        align="left">
+                    </a-text>
+                    <a-text  
+                        position="-0.45 0.3 0"
+                        value="Betreff: Gespraechsrunde"
+                        color="black"
+                        width="1.4"
+                        align="left">
+                    </a-text>
+                    <a-text id="content"
+                        position="-0.45 0.2 0"
+                        value=""
+                        color="black"
+                        width="1.0"
+                        baseline="top"
+                        align="left">
+                    </a-text>
+                </a-plane>
             </a-entity>
         </a-camera>
 
