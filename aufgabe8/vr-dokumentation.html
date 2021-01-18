@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IFD - Nina Hecht - A8</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                color: #171717;
+            }
+            ::selection{
+                background:  rgba(255,195,113,1);
+                color: white;
+            }
+            ::-moz-selection {
+                background: rgba(255,195,113,1);
+                color: white;
+            }
+            html {
+                font-family: 'Barlow', sans-serif;
+            }
+            .content {
+                padding: 20px 10vw;
+            }
+            h1, h2, h3 {
+                background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 750px;
+                margin-bottom: 1rem;
+            }
+            b {
+                font-weight: 600;
+            }
+            .underline {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+            a {
+                color: #171717;
+            }
+            a:hover {
+                color: #171717;
+                text-decoration: underline;
+            }
+            ul {
+                padding: 0 20px;
+                margin-bottom: 1rem;
+            }
+            .img-src {
+                font-size: 0.7rem;
+                margin-top: -18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Virtual Reality Prototyp</h1>
+            <section>
+                <h2>Informationen zur Umsetzung</h2>
+                <p>Zur Umsetzung habe ich mich für eine Webbasierte Methode entschieden. Hierfür verwende ich das 
+                    <a href="https://aframe.io/" target="_blank">Framework A-Frame</a> und den 
+                    <a href="https://sdkcarlos.github.io/sites/artyom.html" target="_blank"> "Wrapper" Artyom.js</a>, welchen ich bereits für die 
+                    <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe5/vui-prototyp.html" target="_blank">Umsetzung des Voice User Interfaces</a> 
+                    verwendet habe. Jedoch sind durch diese Kombination einige Probleme aufgetreten, die ich nicht oder nicht vollständig 
+                    umgehen konnte. Details zu diesen Problemen und wie man sie zum Teil umgehen kann werden im folgenden Abschnitt erläutert.
+                </p>
+            </section>
+                
+            <section>
+                <h2>Nutzungshinweise</h2>
+                <h3>1. Der richtige Browser</h3>
+                <p>Die Funktionalität der Anwendung kann nur bei Verwendung des <b>Google Chrome Browsers</b> vorhanden, da für die Interaktionen
+                    Artyom.js verwendet wird. Dieses wird in anderen Browsern nicht bzw. nur eingeschränkt unterstützt.
+                </p>
+                <h3>2. Der richtige Viewport</h3>
+                <p>Um alle Elemente sehen zu können wird eine <b>Full HD Auflösung</b> (1920 x 1080 Pixel) benötigt. Diese werden von A-Frame leider 
+                    relativ zur Mitte anstelle relativ zur Breite des Viewports positioniert. Da die Bedienhinweise möglichst wenig (wichtige) Fläche verdecken
+                    sollen sind diese Link oben positioniert, allerdings entsprechend einer Viewportbreite von 1920 Pixel.
+                </p>
+                <h3>3. Starten des Videos</h3>
+                <p>Das Video startet <b>automatisch.</b> Sollte nur ein <b>Standbild gezeigt werden, so muss die Seite neugeladen</b> werden (Strg + Shift + R). 
+                    Um einen Video-Start ohne User Interaction in Form eines Klicks zu ermöglichen musste ich das Video <b>stumm</b> schalten.
+                </p>
+                <h3>4. Artyom.js</h3>
+                <p><b>Artyom.js ist in seiner Funktonalität leider eingeschränkt.</b> Zum Einen versteht es einen nicht immer bzw reagiert nur sehr verzögert.
+                    Zum Anderen nimmt es Atempausen als Ende der Aussage wahr. Dadurch ist das Diktieren eines langen E-Mail Textes kaum möglich.
+                    Sobald eine kurze Pause gemacht wird, werden die davor getroffenen Aussagen quasi gelöscht, der E-Mail Inhalt mit den neuen
+                    Aussagen überschrieben. Hier fand ich leider keine gute Lösung, auch nicht für die fehlenden Satzzeichen.
+                </p>
+            </section>
+
+            <section>
+                <h2>Der Prototyp</h2>
+                <p><a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe8/" target="_blank">Zum VR-Prototyp</a></p>
+                <p>Für jeden, der sich mit doch nicht geringen Problemstellungen bei der Verwendung des Prototypen nicht weiter
+                    auseinandersetzen möchte bzw. nicht über die benötigte Hard- / Software verfügt, folgt hier ein Mitschnitt, der den 
+                    Gebrauch der Anwendung demonstriert:
+                </p>
+                <video width="800px" controls="">
+                    <source src="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe8/vr-screencast.mp4" type="video/mp4">
+                </video>
+            </section>
+        </div>
+    </body>
+</html>

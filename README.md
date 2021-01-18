@@ -29,3 +29,6 @@ Nina Hecht - OMB 5 - 260619
 
 ## Aufgabe 7
 <a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe7/vr-konzept.html">VR Konzept</a>
+
+## Aufgabe 8
+<a href="https://ninahecht.github.io/IFD-WiSe20-21/aufgabe8/vr-dokumentation.html">VR Prototyp</a>
