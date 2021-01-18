@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <input type="hidden" id="play">
     <a-scene>
         <a-assets>
             <img src="assets/interactions.png" alt="Available Interactions" id="interactions">
@@ -27,11 +26,16 @@
                 <a-image src="#interactions" ></a-image>
             </a-entity>
 
+            <a-entity position="0 0 -1">
+                <a-text visible="false" value="playing" opacity="0.4" id="play" align="center" ></a-text>
+                <a-text visible="false" value="paused"  opacity="0.4" id="pause" align="center"></a-text>
+            </a-entity>
+
             <a-entity id="mail" position="0 0 -2" scale="2 2.5 1" visible="false">
                 <a-plane material="color: white; shader: flat; opacity: 0.4">
                     <a-text  
                         position="-0.45 0.4 0"
-                        value="E-Mail an Redenden"
+                        value="An: alle Beteiligten"
                         color="black"
                         width="2"
                         align="left">
@@ -45,12 +49,23 @@
                     </a-text>
                     <a-text id="content"
                         position="-0.45 0.2 0"
-                        value=""
+                        scale="0.9 1 1"
+                        value="Diktieren Sie Ihre Nachricht."
                         color="black"
                         width="1.0"
                         baseline="top"
                         align="left">
                     </a-text>
+                    <a-plane material="color: black; shader: flat; opacity: 0.6" position="0.27 -0.4 0.01" scale="0.3 0.1 1">
+                        <a-text
+                            position="0.41 0.06 0"
+                            value='"Senden"'
+                            color="white"
+                            width="4.5"
+                            baseline="top"
+                            align="right">
+                        </a-text>
+                    </a-plane>
                 </a-plane>
             </a-entity>
         </a-camera>
