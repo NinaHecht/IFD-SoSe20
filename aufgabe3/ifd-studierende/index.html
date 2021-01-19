@@ -293,29 +293,12 @@
 
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="../res/jquery-ui.js"></script>
+        <script src="../res/script.js"></script>
+
         <script>
-            $("#menu-toggle").on("click", function() {
-                $("#menu-sub-nav").slideToggle();
-                $("#menu-toggle").toggleClass('menu-open');
-            });
-            $(document).ready(function() {
-                $("#tabs").tabs();
-            });
-            $(".accordion").on("click", function(){
-                $(this).toggleClass("open");
-                let id = $(this).attr("id");
-                $("#" + id + "-content").slideToggle();
-            });
-            $(".fake-link").on("click", function(event){
-                event.preventDefault();
-            });
             $("#participate").on("click", function() {
                 $("#participant").fadeToggle();
                 $("#participate").toggleClass('true');
-            });
-            $("#search-link").on("click", function(event){
-                event.preventDefault();
-                $("#search-input").addClass("open");
             });
         </script>
     </body>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #171717;
+    box-sizing: border-box;
+}
+::selection {
+    background: white;
+    color: rgba(255,95,109,1);
+}
+::-moz-selection {
+    background: white;
+    color: rgba(255,95,109,1);
+}
+html {
+    font-family: 'Barlow', sans-serif;
+}
+.content {
+    padding: 20px 10vw;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+}
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.underline {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+ul {
+    padding: 0 20px;
+    margin-bottom: 1rem;
+}
+.content__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tasks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 -15px;
+    max-width: 1200px;
+    width: 100%;
+}
+.tasks .task {
+    width: 250px;
+    margin: 0 15px 30px 15px;
+    position: relative;
+    border-radius: 10px;
+    background:rgba(255,255,255,0.3);
+    transition: all 0.2s;
+}
+.task:hover {
+    transform: scale(0.95);
+}
+.task__preview {
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+.task__title {
+    padding: 15px 15px 10px 15px;
+    text-align: center;
+    text-decoration: underline;
+    min-height: 63px;
+}
+.task__subtitle {
+    padding: 0 15px 20px 15px;
+    text-align: center;
+    min-height: 77px;
+}

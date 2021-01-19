@@ -411,28 +411,13 @@
 
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="res/jquery-ui.js"></script>
+        <script src="res/script.js"></script>
+
         <script>
-            $("#menu-toggle").on("click", function() {
-                $("#menu-sub-nav").slideToggle();
-                $("#menu-toggle").toggleClass('menu-open');
-            });
             $(document).ready(function() {
-                $("#tabs").tabs();
                 setTimeout(function(){ 
                     alert("Dieser Prototyp wurde mithilfe der Webtechnologien HTML, CSS und JS (JQuery, JQuery UI) umgesetzt. Optimiert ist er für Chrome, Firefox und Edge unter Windows und für einen Viewport zwischen 1200px und 1920px. Um zur Kursansicht der Studierenden zu gelangen klicken Sie auf die Veranstaltung 'Interface Design Studierende', um zur Ansicht der Lehrenden zu kommen auf 'Interface Design Lehrende'.");
                 }, 1000);
-            });
-            $(".accordion").on("click", function(){
-                $(this).toggleClass("open");
-                let id = $(this).attr("id");
-                $("#" + id + "-content").slideToggle();
-            });
-            $(".fake-link").on("click", function(event){
-                event.preventDefault();
-            });
-            $("#search-link").on("click", function(event){
-                event.preventDefault();
-                $("#search-input").addClass("open");
             });
         </script>
     </body>
