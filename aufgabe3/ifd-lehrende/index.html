@@ -379,6 +379,10 @@ Prüfungsleistung:Semesterbegleitende praktische Arbeit - 4 ECTS
 
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="../res/jquery-ui.js"></script>
-        <script src="../res/script.js"></script>
+        <script>
+            $(".remove-participant").on("click", function() {
+                $(this).fadeToggle();
+            });
+        </script>
     </body>
 </html>

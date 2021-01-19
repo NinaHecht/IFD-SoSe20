@@ -18,14 +18,6 @@ $("#search-link").on("click", function(event){
     $("#search-input").addClass("open");
 });
 
-$("#participate").on("click", function() {
-    $("#participant").fadeToggle();
-    $("#participate").toggleClass('true');
-});
-
-$(".remove-participant").on("click", function() {
-    $(this).fadeToggle();
-});
 $(".modal-trigger").on("click", function() {
     $(".accordion.open ~ .accordion-content").slideUp(1);
     $(".accordion.open").removeClass("open");
