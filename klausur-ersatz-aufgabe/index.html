@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
+        <link rel="stylesheet" href="res/jquery-ui.min.css">
+        <link rel="stylesheet" href="res/style.css">
+        <title>Intranet Start</title>
+    </head>
+    <body>
+        <header>
+            <ul class="navigation main-navigation">
+                <li><a class="logo" href="#">Digitale <br>Medien</a></li>
+                <li><a class="fake-link" href="">Foren</a></li>
+                <li><a class="fake-link" href="">Veranstaltungen</a></li>
+                <li><a class="fake-link" href="">Jobs & Praktika</a></li>
+                <li><a class="fake-link" href="">Mensa</a></li>
+            </ul>
+            <ul class="navigation icon-navigation">
+                <li id="search">
+                    <input id="search-input" tabindex="-1"/>
+                    <a id="search-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="7"></circle><line x1="20" y1="20" x2="16" y2="16"></line>
+                        </svg> 
+                    </a>
+                </li>
+                <li><a class="fake-link" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="5"></circle>
+                    </svg>
+                </a></li>
+                <li class="toggle" id="menu-toggle" tabindex="0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="12" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </li>
+                <ul id="menu-sub-nav">
+                    <li class="group-start group-end logout">
+                        <a class="icon-link fake-link" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line>
+                            </svg>
+                            &nbsp;&nbsp;Abmelden
+                        </a>
+                    </li>
+
+                    <li class="group-start platforms"><a class="fake-link" href="">SOGo</a></li>
+                    <li class="group-start platforms"><a class="fake-link" href="">Felix</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Florian</a></li>
+                    <li class="platforms"><a class="fake-link" href="">WPM</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Feval</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Rooms</a></li>
+                    <li class="group-end platforms"><a class="fake-link" href="">Star<wbr>plan</a></li>
+                    <li class="group-end platforms"><a class="fake-link" href="">Studi<wbr>portal</a></li>
+
+                    <li class="group-start faculty"><a class="fake-link" href="">Mail</a></li>
+                    <li class="group-start faculty"><a class="fake-link" href="">Xing</a></li>
+                    <li class="faculty"><a class="fake-link" href="">CD HFU</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Personen</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Skill<wbr>suche</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Sprech<wbr>zeiten</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Abschluss<wbr>arbeiten</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Dekanats<wbr>infos</a></li>
+                    <li class="faculty"><a class="fake-link" href="">FAQs</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Shops</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Labore Service</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Fach<wbr>schaft</a></li>
+                    <li class="group-end faculty"><a class="fake-link" href="">Arbeits<wbr>sicherheit</a></li>
+                </ul>
+            </ul>
+        </header>
+
+        <main>
+            <div id="tabs">
+                <ul class="tab-navigation">
+                  <li><a tabindex="0" href="#veranstaltungen">Veranstaltungen</a></li>
+                  <li><a tabindex="0" href="#mensa">Mensa</a></li>
+                  <li><a tabindex="0" href="#foren">Foren</a></li>
+                  <li><a tabindex="0" href="#covid-19">Covid-19 Infos</a></li>
+                </ul>
+                <div id="veranstaltungen">
+                    <div class="planner">
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="ifd-studierende/index.html">Interface Design Studierende</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                                <a class="black-link fake-link" href="">Kursseite</a>
+                            </div>
+                            <div><a class="black-link notification" href="#">Nachrichten</a></div>
+                            <div><a class="black-link notification" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Prof. Dr. Rausch
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="ifd-lehrende/index.html">Interface Design Lehrende</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                                <a class="black-link fake-link" href="">Kursseite</a>
+                            </div>
+                            <div><a class="black-link" href="#">Nachrichten</a></div>
+                            <div><a class="black-link" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Prof. Dr. Rausch
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="#">Marketing Automation</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                                <a class="black-link fake-link" href="">Drive-Ordner</a>
+                            </div>
+                            <div><a class="black-link notification" href="#">Nachrichten</a></div>
+                            <div><a class="black-link notification" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Oliver Schmitt
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="#">Projekt Teil 2</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                                <a class="black-link fake-link" href="">Felix-Kurs</a>
+                            </div>
+                            <div><a class="black-link" href="#">Nachrichten</a></div>
+                            <div><a class="black-link" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Prof. Dr. Eisenbiegler
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="#">Streaming Anwendungen</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                            </div>
+                            <div><a class="black-link" href="#">Nachrichten</a></div>
+                            <div><a class="black-link notification" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Prof. Hottong
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="#">Website Prototyping</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Online-Veranstaltung</a><br>
+                            </div>
+                            <div><a class="black-link" href="#">Nachrichten</a></div>
+                            <div><a class="black-link" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Peter Bürk
+                            </a></div>
+                        </div>
+                        <div class="planner-row planner-row-4">
+                            <div><a class="black-link" href="#">FDP1</a></div>
+                            <div>
+                                <a class="black-link fake-link" href="">Besprechungsraum</a><br>
+                                <a class="black-link fake-link" href="">Tutorien-Raum</a>
+                            </div>
+                            <div><a class="black-link notification" href="#">Nachrichten</a></div>
+                            <div><a class="black-link" href="#">Dateien</a></div>
+                            <div><a class="black-link icon-link fake-link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                &nbsp;&nbsp;Prof. Dr. Schneider
+                            </a></div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="dividing-accordion">
+                        <div id="accordion-stundenplan" class="accordion" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                            Stundenplan KW 44
+                        </div>
+                        <div id="accordion-stundenplan-content" class="accordion-content">
+                            <div class="planner planner-table">
+                                <div class="planner-row planner-row-5 planner-header">
+                                    <div>Block</div>
+                                    <div>Montag - 26.10</div>
+                                    <div>Dienstag - 27.10</div>
+                                    <div>Mittwoch - 28.10</div>
+                                    <div>Donnerstag - 29.10</div>
+                                    <div>Freitag - 30.10</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">1</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">Marketing Automation<br>DM-08<br>I0.13</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">2</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">Marketing Automation<br>DM-08<br>I0.13</div>
+                                    <div class="active">Streaming Anwendungen<br>DM-05<br>I0.14</div>
+                                    <div class="active">Interface Design<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">3</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">Streaming Anwendungen<br>DM-05<br>I0.14</div>
+                                    <div class="active">Interface Design<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">4</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">Website Prototyping<br>DM-13<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">5</div>
+                                    <div class="active">FDP1 Besprechung<br>DM-20<br>&nbsp;</div>
+                                    <div class="active">Website Prototyping<br>DM-13<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">Projekt Teil 2<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">6</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div class="active">FDP1 Tutorium<br>DM-04<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                                <div class="planner-row planner-row-5">
+                                    <div class="planner-header">7</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                    <div>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mensa">
+                    <h2>Freitag, 30.10.2020</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Essen 1</h3>
+                            <p>Apfelstrudel<br>Vanillesauce<br><span><strong>Vegetarisch</strong></span></p>
+                        </div>
+                        <div class="card">
+                            <h3>Essen 2</h3>
+                            <p>Seelachs im Backteig<br>Tomaten-Sauerrahmsauce<br>Spaghetti<br>Mixsalat</p>
+                        </div>
+                    </div>
+                    <br>
+                    <a class="green-link fake-link" href="">Zur Homepage des SWFR</a>
+                    <br><br>
+                    <div class="dividing-accordion">
+                        <div id="accordion-wochenplan" class="accordion" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                            Wochenplan
+                        </div>
+
+                        <div id="accordion-wochenplan-content" class="accordion-content">
+                            <div class="planner">
+                                <div class="planner-row planner-row-3 planner-header">
+                                    <div>Wochentag</div>
+                                    <div>Essen 1</div>
+                                    <div>Essen 2</div>
+                                </div>
+                                <div class="planner-row planner-row-3">
+                                    <div class="planner-header">Montag<br>26.10.2020</div>
+                                    <div>
+                                        <p>Gemüse-Gnocchipfanne<br>Tomatensauce<br>Geriebener Hartkäse<br>Mixsalat<br><span><strong>vegetarisch</strong></span></p>
+                                    </div>
+                                    <div>
+                                        <p>Döner-Teller<br>Zaziki<br>Tomatenreis<br>Mixsalat</p>
+                                    </div>
+                                </div>
+                                <div class="planner-row planner-row-3">
+                                    <div class="planner-header">Dienstag<br>27.10.2020</div>
+                                    <div>
+                                        <p>Gemüseschnitzel<br>Bratensauce<br>Pommes frites<br>Bunter Blattsalat<br><span><strong>vegan</strong></span></p>
+                                    </div>
+                                    <div>
+                                        <p>Schweineschnitzel Wiener Art<br>Bratensauce<br>Zitronengarnitur<br>Pommes frites<br>Bunter Blattsalat</p>
+                                    </div>
+                                </div>
+                                <div class="planner-row planner-row-3">
+                                    <div class="planner-header">Mittwoch<br>28.10.2020</div>
+                                    <div>
+                                        <p>Kartoffeltaschen mit Frischkäsefüllung<br>Ratatouille<br>Kopfsalat mit Gurken<br><span><strong>vegetarisch</strong></span></p>
+                                    </div>
+                                    <div>
+                                        <p>Käsespätzle<br>Specksauce<br>Röstzwiebeln<br>Kopfsalat mit Gurken</p>
+                                    </div>
+                                </div>
+                                <div class="planner-row planner-row-3">
+                                    <div class="planner-header">Donnerstag<br>29.10.2020</div>
+                                    <div>
+                                        <p>Cappelletti Funghi<br>Schnittlauch-Käsesauce<br>Kaisergemüse<br>Beilagensalat<br><span><strong>vegetarisch</strong></span></p>
+                                    </div>
+                                    <div>
+                                        <p>Cordon bleu vom Schwein<br>Bratensauce<br>Kartoffelbrei<br>Karotten-Erbsengemüse<br>Beilagensalat</p>
+                                    </div>
+                                </div>
+                                <div class="planner-row planner-row-3">
+                                    <div class="planner-header">Freitag<br>30.10.2020</div>
+                                    <div>
+                                        <p>Apfelstrudel<br>Vanillesauce<br><span><strong>Vegetarisch</strong></span></p>
+                                    </div>
+                                    <div>
+                                        <p>Seelachs im Backteig<br>Tomaten-Sauerrahmsauce<br>Spaghetti<br>Mixsalat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="foren">
+                    <div class="planner">
+                        <div class="planner-row planner-row-3">
+                            <div><a class="black-link fake-link" href="">Allgemeines Intranet Forum</a></div>
+                            <div><a class="black-link fake-link" href="">Nachrichten</a></div>
+                            <div><a class="black-link fake-link" href="">Dateien</a></div>
+                        </div>
+                        <div class="planner-row planner-row-3">
+                            <div><a class="black-link fake-link" href="">Jobs, Praktika, Abschlussarbeiten</a></div>
+                            <div><a class="black-link fake-link" href="">Nachrichten</a></div>
+                            <div><a class="black-link fake-link" href="">Dateien</a></div>
+                        </div>
+                    </div>
+                    <br><br><a class="green-link icon-link fake-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00844d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                        Weitere Foren hinzufügen
+                    </a>
+                </div>
+                <div id="covid-19">
+                    <h2>Studienbetrieb und -organisation im WiSe 20/21 aufgrund der aktuellen Situation des Coronavirus (COVID-19)</h2>
+
+                    <h3>Studienbetrieb:</h3>
+                    <ul class="bullet-point-list">
+                        <li>
+                            Die Corona-Pandemie wird leider auch das WiSe 20/21 an unserer Fakultät maßgeblich bestimmen. Wo didaktisch möglich und sinnvoll wird ein Großteil der Veranstaltungen im WiSe 20/21 erneut wie im SoSe 20 digital angeboten. Vereinzelte Vorlesungen, bestimmte Praktika, Seminare, etc. können aber auch in Präsenz unter den dann zu diesem Zeitpunkt geltenden Sicherheits- und Hygienevorschriften angeboten werden. Die Entscheidung über die jeweilige Angebotsform liegt bei den entsprechenden Lehrenden.
+                        </li>
+                        <li>
+                            <strong> Informationen zu den geplanten Lehrformen</strong> können in der entsprechenden Veranstaltung hier im Intranet unter dem Reiter „Info/Beschreibung“ abgerufen werden. Hier finden Sie „Informationen zum E-Learning/Distance-Learning-Angebot“ sowie je nach Veranstaltung Direktlinks zum FELIX-Kurs und / oder zum Alphaview-Veranstaltungsraum.
+
+                            <ul><li>
+                                Sollten hier noch keine Informationen hinterlegt sein, so wenden Sie sich bitte direkt an die entsprechenden Lehrenden.
+                            </li></ul>
+                        </li>
+                        <li>
+                            Unter folgendem Link gelangen Sie zu allen <strong><a class="green-link fake-link" href="">Online-Veranstaltungsräumen</a></strong>
+
+                            <ul><li>
+                                Die Räume DM-01 bis DM-19 sind <strong>klassische Veranstaltungsräume</strong> und für diese reserviert.
+                            </li>
+                            <li>
+                                Die Räume DM-20 und DM-21 haben wir als Projekträume definiert. In diesen können jede Art von (Projekt-) Besprechungen stattfinden. Bitte hierfür jeweils einen der 10 definierten Unterräume (Gruppe A – Gruppe J) verwenden. Projektbesprechungen für das Projektstudium oder für die Masterprojekte haben Vorrang.
+                            </li></ul>
+                        </li>
+                        <li>
+                            Bei technischen Problemen wenden Sie sich bitte an: <strong><a class="green-link fake-link" href="">dm-support@hs-furtwangen.de</a></strong>
+                        </li>
+                    </ul>
+
+                    <br>
+                    <h3>Studien-Organisation</h3>
+                    <ul class="bullet-point-list">
+                        <li>
+                            Die <strong>DM-Verwaltung / Studierendenservice</strong> ist bis auf Weiteres für den Publikumsverkehr geschlossen. Unsere Mitarbeiterinnen sind aber per Mail oder Telefon ab dem 07.09.20 wieder erreichbar.
+                        </li>
+                        <li>
+                            <strong>Formulare, Anträge, Verträge, etc.</strong> können bis auf Weiteres mit gescannten Unterschriften bearbeitet werden.
+                        </li>
+                        <li>
+                            Bei <strong>organisatorischen Anliegen und Fragen</strong> kontaktieren Sie bitte unsere beiden Mitarbeiterinnen
+
+                            <ul><li>
+                                <a class="green-link fake-link" href="">Laura Grieshaber (Bachelor)</a>
+                            </li>
+                            <li>
+                                <a class="green-link fake-link" href="">Doris Braun (Master)</a>
+                            </li></ul>
+                        </li>
+                        <li>
+                            Bei <strong>studiumsrelevanten Anliegen, Fragen und Problemen</strong> wenden Sie sich bitte an Ihre(n) StudiendekanIn.
+                        </li>
+                        <li>
+                            Zur Unterstützung rund um das Thema Lernen können Sie sich jederzeit an das neue Lernzentrum der <a class="green-link fake-link" href="">HFU FLORIAN</a> wenden.
+                        </li>
+                    </ul>
+
+                    <strong>Aktuelle und wichtige Informationen</strong> rund um Ihr Studium bzgl. dem Coronavirus (COVID-19) erhalten Sie auf folgender Seite der Hochschule: <a class="green-link fake-link" href="">Aktuelles: Coronavirus</a>
+
+                    Bitte beachten Sie, dass sich aufgrund der dynamischen Entwicklung der Pandemie, die Planungen für das WiSe 20/21 jederzeit ändern können.
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <ul class="footer-navigation">
+                <li><a class="green-link fake-link" href="">Impressum</a></li>
+                <li><a class="green-link fake-link" href="">Datenschutz</a></li>
+            </ul>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="res/jquery-ui.js"></script>
+        <script src="res/script.js"></script>
+    </body>
+</html>

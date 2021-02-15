@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
+        <link rel="stylesheet" href="../res/jquery-ui.min.css">
+        <link rel="stylesheet" href="../res/style.css">
+        <title>Intranet Kursseite Studierende</title>
+    </head>
+    <body>
+        <header>
+            <ul class="navigation main-navigation">
+                <li><a class="logo" href="../index.html">Digitale <br>Medien</a></li>
+                <li><a class="fake-link" href="">Foren</a></li>
+                <li><a class="fake-link" href="">Veranstaltungen</a></li>
+                <li><a class="fake-link" href="">Jobs & Praktika</a></li>
+                <li><a class="fake-link" href="">Mensa</a></li>
+            </ul>
+            <ul class="navigation icon-navigation">
+                <li id="search">
+                    <input id="search-input" tabindex="-1"/>
+                    <a id="search-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="7"></circle><line x1="20" y1="20" x2="16" y2="16"></line>
+                        </svg> 
+                    </a>
+                </li>
+                <li><a class="fake-link" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="5"></circle>
+                    </svg>
+                </a></li>
+                <li class="toggle" id="menu-toggle" tabindex="0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="12" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </li>
+                <ul id="menu-sub-nav">
+                    <li class="group-start group-end logout">
+                        <a class="icon-link fake-link" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line>
+                            </svg>
+                            &nbsp;&nbsp;Abmelden
+                        </a>
+                    </li>
+
+                    <li class="group-start platforms"><a class="fake-link" href="">SOGo</a></li>
+                    <li class="group-start platforms"><a class="fake-link" href="">Felix</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Florian</a></li>
+                    <li class="platforms"><a class="fake-link" href="">WPM</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Feval</a></li>
+                    <li class="platforms"><a class="fake-link" href="">Rooms</a></li>
+                    <li class="group-end platforms"><a class="fake-link" href="">Star<wbr>plan</a></li>
+                    <li class="group-end platforms"><a class="fake-link" href="">Studi<wbr>portal</a></li>
+
+                    <li class="group-start faculty"><a class="fake-link" href="">Mail</a></li>
+                    <li class="group-start faculty"><a class="fake-link" href="">Xing</a></li>
+                    <li class="faculty"><a class="fake-link" href="">CD HFU</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Personen</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Skill<wbr>suche</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Sprech<wbr>zeiten</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Abschluss<wbr>arbeiten</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Dekanats<wbr>infos</a></li>
+                    <li class="faculty"><a class="fake-link" href="">FAQs</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Shops</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Labore Service</a></li>
+                    <li class="faculty"><a class="fake-link" href="">Fach<wbr>schaft</a></li>
+                    <li class="group-end faculty"><a class="fake-link" href="">Arbeits<wbr>sicherheit</a></li>
+                </ul>
+            </ul>
+        </header>
+
+        <main>
+            <h1>Interface Design Studierende</h1><br>
+            <div id="tabs">
+                <ul class="tab-navigation">
+                  <li><a href="#info">Veranstaltungsinfo</a></li>
+                  <li><a href="#nachrichten">Nachrichten (1)</a></li>
+                  <li><a href="#dateien">Dateien (2)</a></li>
+                </ul>
+                <div id="info">
+                    <div class="info-left">
+                        <div class="key-value-list">
+                            <div class="key-value-pair">
+                                <span class="key">Räume: </span><span>I0.13 / <a class="green-link fake-link" href="">DM-05</a></span>
+                            </div>
+                            <div class="key-value-pair">
+                                <span class="key">Termin: </span><span>Freitag 2+3 Block</span>
+                            </div>
+                            <div class="key-value-pair">
+                                <span class="key">Dozent: </span><span>Prof. Dr. Rausch</span>
+                            </div>
+                            <div class="key-value-pair">
+                                <span class="key">Direktlinks: </span><span><a class="green-link fake-link" href="">Kursseite</a></span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="dividing-accordion">
+                            <div id="accordion-zusatz" class="accordion" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                Zusätzliche Informationen
+                            </div>
+                            <div id="accordion-zusatz-content" class="accordion-content">
+                                <div class="key-value-list">
+                                    <div class="key-value-pair">
+                                        <span class="key">Benutzer Kursseite: </span><span>Benutzer</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Passwort Kursseite: </span><span>Passwort</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="dividing-accordion">
+                            <div id="accordion-vorlesung" class="accordion" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                Teil a) Vorlesung
+                            </div>
+                            <div id="accordion-vorlesung-content" class="accordion-content">
+                                <div class="key-value-list">
+                                    <div class="key-value-pair">
+                                        <span class="key">Sprache: </span><span>Deutsch</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Kontaktzeit: </span><span>2 SWS / 22.5 Stunden</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Selbststudium: </span><span>52.5 Stunden</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Gruppengröße: </span><span>30</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Lehrform(en): </span><span>Vorlesung</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Vorausstzung: </span><span>Keine</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Inhalte: </span><span>Alltagsinterfaces<br>Wahrnehmung, Semiotik<br>
+                                        App Konzeption<br>User Experience, User Centered Design<br>Prototyping<br>
+                                        Design Patterns, Typografie<br>Microinteractions, Onboarding<br>
+                                        Inclusive Design<br>Natural Language Interfaces, Artificial Intelligence<br>
+                                        Futuristic Interfaces, Trends</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Literatur: </span><span>Hoober, Steven; Berkman, Eric: Designing Mobile Interfaces, 2011<br>
+                                        Wigdor, Daniel; Wixon, Dennis: Brave NUI World, 2011<br>Saffer, Dan: Microinteractions, 2013<br>
+                                        Nielsen, Jakob; Raluca, Budiu: Mobile Usability, 2011</span>
+                                    </div>                            
+                                    <div class="key-value-pair">
+                                        <span class="key">Prüfungsleistung: </span><span>Klausur - 2 ECTS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="dividing-accordion">
+                            <div id="accordion-praktikum" class="accordion" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                Teil b) Praktikum
+                            </div>
+                            <div id="accordion-praktikum-content" class="accordion-content">
+                                <div class="key-value-list">
+                                    <div class="key-value-pair">
+                                        <span class="key">Sprache: </span><span>Deutsch</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Kontaktzeit: </span><span>2 SWS / 22.5 Stunden</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Selbststudium: </span><span>82.5 Stunden</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Gruppengröße: </span><span>30</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Lehrform(en): </span><span>Praktikum</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Vorausstzung: </span><span>Keine</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Inhalte: </span><span>Die Inhalte der Vorlesung werden praktisch angewendet und geübt.</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Literatur: </span><span>Siehe Veranstaltung a)</span>
+                                    </div>
+                                    <div class="key-value-pair">
+                                        <span class="key">Prüfungsleistung: </span><span>Semesterbegleitende praktische Arbeit - 4 ECTS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-right">
+                        <div class="teilnehmer-liste">
+                            <a href="" id="participate" class="icon-link fake-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                <h3 style="margin: 0;">&nbsp;&nbsp;Teilnehmer</h3>
+                            </a> 
+                            <ul class="participants">
+                                <li>Jane Doe</li>
+                                <li>James Smith</li>
+                                <li>Hans Müller</li>
+                                <li id="participant">Nina Hecht</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <a href="" class="icon-link fake-link black-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            &nbsp;&nbsp;Mail an Dozent
+                        </a>
+                        <br><br>
+                        <a href="" class="icon-link fake-link black-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            &nbsp;&nbsp;Mail an Teilnehmer
+                        </a> 
+                    </div>
+                </div>
+                <div id="nachrichten">
+                    <div class="planner">
+                        <div class="planner-row planner-row-3 planner-header">
+                            <div>Thema</div>
+                            <div>Autor</div>
+                            <div>Datum</div>
+                        </div>
+                        <div class="planner-row planner-row-3 row-notification">
+                            <div><a class="green-link fake-link" href="">Skript zur 3ten Vorlesung hochgeladen</a></div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>30.10.2020</div>
+                        </div>
+                        <div class="planner-row planner-row-3">
+                            <div> <a class="green-link fake-link" href="">Skript zur 2ten Vorlesung hochgeladen</a></div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>30.10.2020</div>
+                        </div>
+                        <div class="planner-row planner-row-3">
+                            <div> <a class="green-link fake-link" href="">Skript zur 1ten Vorlesung hochgeladen</a></div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>23.10.2020</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dateien">
+                    <div class="planner">
+                        <div class="planner-row planner-row-5 planner-header">
+                            <div>Typ</div>
+                            <div>Name</div>
+                            <div>Beschreibung</div>
+                            <div>Größe</div>
+                            <div>Uploader</div>
+                            <div>Datum</div>
+                        </div>
+                        <div class="planner-row planner-row-5 row-notification">
+                            <div>PDF</div>
+                            <div> <a class="green-link fake-link" href="">Vorlesung 3</a></div>
+                            <div>Skript zur 3ten Vorlesung</div>
+                            <div>1.4 MB</div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>30.10.2020</div>
+                        </div>
+                        <div class="planner-row planner-row-5 row-notification">
+                            <div>PDF</div>
+                            <div><a class="green-link fake-link" href="">Vorlesung 2</a></div>
+                            <div>Skript zur 2ten Vorlesung</div>
+                            <div>2.1 MB</div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>30.10.2020</div>
+                        </div>
+                        <div class="planner-row planner-row-5">
+                            <div>PDF</div>
+                            <div><a class="green-link fake-link" href="">Vorlesung 1</a></div>
+                            <div>Skript zur 1ten Vorlesung</div>
+                            <div>2 MB</div>
+                            <div>Prof. Dr. Rausch</div>
+                            <div>23.10.2020</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <ul class="footer-navigation">
+                <li><a class="green-link fake-link" href="">Impressum</a></li>
+                <li><a class="green-link fake-link" href="">Datenschutz</a></li>
+            </ul>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="../res/jquery-ui.js"></script>
+        <script src="../res/script.js"></script>
+
+        <script>
+            $("#participate").on("click", function() {
+                $("#participant").fadeToggle();
+                $("#participate").toggleClass('true');
+            });
+        </script>
+    </body>
+</html>
